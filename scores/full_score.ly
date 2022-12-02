@@ -12,7 +12,7 @@
 \book {
   \bookpart {
     \section "1" "Symphonia prima"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score {
       <<
@@ -39,7 +39,7 @@
         \new FiguredBass { \SymphoniaPrimaBassFigures }
       >>
       \layout { }
-      \midi { \tempo 4 = 90 }
+      \midi { \tempo 4 = 100 }
     }
   }
 }

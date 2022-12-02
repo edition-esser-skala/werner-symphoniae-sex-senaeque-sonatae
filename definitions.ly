@@ -7,6 +7,8 @@
 
 
 tempoSymphoniaPrima = \tempoMarkup "Spirituoso"
+tempoSymphoniaPrimaB = \tempoMarkup "Larghetto"
+tempoSymphoniaPrimaC = \tempoMarkup "Allego assai"
 
 
 \include "notes/vl1.ly"
