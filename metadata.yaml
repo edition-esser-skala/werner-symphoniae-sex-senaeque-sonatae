@@ -1,0 +1,17 @@
+composer:
+  last: Werner
+  first: Gregor Joseph
+title: Symphoniae sex senaeque sonatae
+genre: misc
+scoring: 2 vl, bc
+license: cc-by-sa-4.0
+sources:
+  C1:
+    siglum: D-Dl
+    shelfmark: Mus.2462-Q-1
+    date: 1734–1735
+    rism: 990068292
+    url: https://digital.slub-dresden.de/id334703093
+    license: public domain
+    principal: true
+imslp: Symphoniae_6_senaeque_sonatae_(Werner,_Gregor_Joseph)
