@@ -130,3 +130,147 @@ SymphoniaPrimaViolinoI = {
     \alternative { { c,4 r8 } { c4 r8\fermata } } \bar "|." %120 finis
   }
 }
+
+SonataPrimaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key a \minor \time 3/4 \tempoSonataPrima
+    e'4\fE c'8( h) a( gis)
+    a( e) e2~
+    e8 a, e'( g!) f( e)
+    f2.~
+    f8 d h( a) g( f) %5
+    e2.~
+    e4 dis a'~
+    a gis r
+    e'8( f) e( dis) e4
+    d8( e) d( cis) d4 %10
+    c8( d) c( h) c4~
+    c8( d) \appoggiatura c h4.\trill c8
+    c4 a' g8 fis
+    g d g4 f8 e
+    f g a( gis) a4 %15
+    g8( a) g( fis) g4
+    f8( g) f( e) f4~
+    f8 g \appoggiatura f4 e2~
+    e8 d d4 c!8 h
+    a( c) h( a) gis( a) %20
+    gis4 e\pE f
+    e8( d) c2\trill \noBreak
+    h2.\fermata \bar "||"
+    \time 4/4 \tempoSonataPrimaB \newSpacingSection R1*4 %27
+    e2\fE c'4. h16 c
+    ais8 ais ais ais fis'4. e16 fis
+    dis8 dis dis dis h'4 e,~ %30
+    e8 fis g16 fis e dis e4 r8 d,
+    d' d d c16 h c4. h16 c
+    a8 a a a fis'4. e16 fis
+    dis8 dis dis dis h'4. a16 h
+    gis8. gis16 a8 g16 f e8 d e4~ %35
+    e8 fis g16 fis e dis e4. d8
+    cis d f16 e d cis d4. c8
+    h! c e16 d c h c8 d e4~
+    e8 g fis e dis fis e4~
+    e dis r e, %40
+    c'4. h16 c a8 a a a
+    fis'4. e16 fis dis8 dis dis dis
+    h'4. a16 h g8 fis e4~
+    e8 d! d c16 h c8 e16 d c d h c
+    a4 a' r8 fis~ fis16 g e fis %45
+    dis4 h' r8 h,~ h16 c a h
+    gis4 e'8 d c16 d c d e4~
+    e16 f! g!4 a8 e h c d,
+    e c''4 h8 a c h16 c a h
+    gis8 h a16 h g a fis8 a g16 a f g %50
+    e8 g16 f e f d e c8 d e4
+    d d, h'4. a16 h
+    gis8 gis gis gis e'4. d16 e
+    cis8 cis cis cis a'4. g16 a
+    fis8 fis fis fis d'4. c!16 d %55
+    h8 h h h c g c4~
+    c8 h16 a h4 c8 g c b~
+    b a16 b a8 g f4 a~
+    a8 g16 a g8 f e4 g
+    c,8 d16 e d8 c h e, r4 %60
+    r a fis'4. e16 fis
+    dis8 dis dis dis h'4. a16 h
+    g8 c!4 h8 ais fis16 g a4
+    h,8 h'4 a8 gis4 a~
+    a8 g16 fis g4. f16 e f4~ %65
+    f8 e16 f e8 d c8. h16 c d e8~
+    e d16 c h8 a gis e r4
+    r e' c'4. h16 c
+    dis,8 dis dis dis h'4. a16 h
+    c,!8 c dis dis e h e4~ %70
+    e8 fis fis4. gis8 gis4~
+    gis8 a a h gis fis16 e a4~
+    a gis a a,
+    f'4. e16 f d8 d d c
+    h4. a16 h gis4 a~ \noBreak %75
+    a gis a r\fermata \bar "||"
+    \time 3/2 \tempoSonataPrimaC \newSpacingSection
+      e'1\fE d2 \noBreak
+    c4( e) g2 r
+    a,\p g4( e) f( d)
+    e( d) e2 r %80
+    g'\f c1
+    h2 e, fis
+    g a h
+    c4( c,) c2 r
+    h4\p c h2( a4.)\trill g8 %85
+    g2 d'1~\f
+    d4 h' c,1~
+    c4 a' h,1~
+    h4 g' a,1~
+    a4 f' gis,1 %90
+    a2 h c
+    cis d dis\trill \noBreak
+    e1.\fermata \bar "||"
+    \time 6/8 \tempoSonataPrimaD a8.\fE h16 a8 gis a,4 \noBreak
+    f'8. g16 f8 e a,4 %95
+    d8. e16 d8 c d16 c h a
+    e'8 a, gis a16 h c d e fis
+    g! a h a g a fis h gis e fis gis
+    a8 a, a'~ a g16 fis g8
+    f e dis h' e, a %100
+    g a16 g fis g e8 e, d'
+    c8. d16 e f e8. cis16 d e
+    a,8 a'4 gis8 a a,
+    f'4 f8 e a, a'~
+    a gis16 fis gis8 a, a' g~ %105
+    g fis16 g a8 d, g f~
+    f e16 f g8 c, f e~
+    e dis16 e fis8 h, e d
+    c f e d g f
+    e a g fis h a~ %110
+    a g r h8. c16 h8~
+    h a r r4 r8
+    r4 r8 e8. f16 e8~
+    e d4~ d8 cis16 d e8~
+    e d16 c h a h8 d4~ %115
+    d8 c16 h a g a8 a'4~
+    a8 g16 f e d e f d8.\trill c16
+    c4 r8 g'8. a16 g8
+    fis a,4 a'8. h16 a8
+    gis8 h,4 r8 h' g %120
+    a fis8.\trill e16 e fis g4~
+    g16 e a g f e d e f4~
+    f16 d g f e d e8 g, e'
+    d g, r c'8. d16 c8
+    h h,4 a'8. h16 a8 %125
+    gis e, r e'8. f16 e8
+    e a, r f'8. g16 f8
+    fis h, r h' a16 gis fis e
+    c'4.~ c16 a h c d c
+    h4.~ h16 g a h c h %130
+    a4.~ a16 fis gis a h a
+    gis4. c8. h16 a8
+    a a, r a8. h16 a8
+    gis e' a, h c16 h a gis
+    a4 r8 cis8. d16 cis8 %135
+    d d,4 e'8. f16 e8
+    f f, f'~ f e16 d c h
+    c8 e a f \appoggiatura c h8.\trill a16
+    a8 a' gis a4 r8\fermata \bar "|." %139 finis
+  }
+}

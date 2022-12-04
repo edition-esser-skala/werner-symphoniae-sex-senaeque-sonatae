@@ -10,6 +10,11 @@ tempoSymphoniaPrima = \tempoMarkup "Spirituoso"
 tempoSymphoniaPrimaB = \tempoMarkup "Larghetto"
 tempoSymphoniaPrimaC = \tempoMarkup "Allego assai"
 
+tempoSonataPrima = \tempoMarkup "Largo"
+tempoSonataPrimaB = \tempoMarkup "Allegro"
+tempoSonataPrimaC = \tempoMarkup "Largo"
+tempoSonataPrimaD = \tempoMarkup "Allegro"
+
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
