@@ -11,7 +11,7 @@
 
 \book {
   % \bookpart {
-  %   \section "1" "Symphonia prima"
+  %   \section "1·a" "Symphonia prima"
   %   \addTocEntry
   %   \paper { indent = 3\cm }
   %   \score {
@@ -42,8 +42,39 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "1·b" "Sonata prima"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SonataPrimaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SonataPrimaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \SonataPrimaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \SonataPrimaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "2" "Sonata prima"
+    \section "2·a" "Symphonia secunda"
     \addTocEntry
     \score {
       <<
@@ -52,11 +83,11 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SonataPrimaViolinoI
+              \SymphoniaSecundaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SonataPrimaViolinoII
+              \SymphoniaSecundaViolinoII
             }
           >>
         >>
@@ -64,10 +95,10 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \SonataPrimaBassoContinuo
+            \SymphoniaSecundaBassoContinuo
           }
         >>
-        \new FiguredBass { \SonataPrimaBassFigures }
+        \new FiguredBass { \SymphoniaSecundaBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 100 }

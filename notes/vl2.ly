@@ -275,3 +275,98 @@ SonataPrimaViolinoII = {
     a16 c e8 h a4 r8\fermata \bar "|." %139 finis
   }
 }
+
+SymphoniaSecundaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoSymphoniaSecunda
+    d8\fE f b c
+    d16 es d es f8 b,
+    b4 a\trill
+    b r8 a
+    b16( a) b8 r a\p %5
+    b16( a) b8 r a\f
+    a16( b) b( a) \once \slurDashed a( g) g f32 e
+    f8 a r e'
+    f16 c a f a8 e'
+    f16 c a f a8 e' %10
+    f4. e8
+    f16 f, a c f8 d
+    b4~ b16 f'8 b,16
+    b8 a b16 d8 f,16
+    f4. e8 %15
+    f f16 g a b c8
+    f, b4 a8
+    r b4 a8
+    r b4 a8
+    b b,4 a8 %20
+    b b16 c d es f g
+    a( g) a8 r g
+    a16( g) a8 r g
+    f8. f16 g8 e'
+    f16 a, b c d a b c %25
+    b8 g a fis
+    d16 d es! f g g a h
+    c8 es,16 f g a b8
+    e,16 e f g a a h cis
+    d8. d16 e cis d e %30
+    a,8. d16 e cis d e
+    a,8 d4 cis8
+    r d4 cis8
+    r d4 cis8
+    d16 a h c d8 h %35
+    g c4 h8
+    c16 g a b c8 a
+    f b4 a8
+    b16( a) b8 r a
+    b16( a) b8 r a %40
+    b16( es) es( d) d( c) c b32 a
+    b16(\pE es) es( d) d( c) c b32 a
+    b16(\fE d) d( c) c( b) f( b)
+    a4 r8 c
+    f, b4 a8 %45
+    r b4 a8
+    r b4 a8
+    b b,4 a8
+    b d g c, \noBreak
+    d4 r\fermata \bar "||" %50
+    \time 3/4 \tempoSymphoniaSecundaB \newSpacingSection
+      g2.~\fE \noBreak
+    g4 fis8 e fis4
+    g g' f!
+    es!2 d4
+    cis4. d8 e4 %55
+    d a'2~
+    a4 g f!
+    es2.~
+    es4 d c
+    b2 a4 %60
+    g a g \noBreak
+    fis2.\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaSecundaC \newSpacingSection
+    \repeat volta 2 {
+      d16\fE es f8 d \noBreak
+      c f4~
+      f8 es c %65
+      f b, r
+      b d16( b) f'8
+      b, es16( c) g'8
+      c, a' b
+    }
+    \alternative { { a4 r8 } { a4 r8 } } %71
+    \repeat volta 2 {
+      r c a \noBreak
+      b g16 a b8
+      d, f g
+      c, f r %75
+      r b c
+      f, b d,16 es
+      f8 es f
+      b, g' r
+      g16 a g a b8 %80
+      c4 f,8
+      g \appoggiatura b a4\trill
+    }
+    \alternative { { b4 r8 } { b4 r8\fermata } } \bar "|." %84 finis
+  }
+}

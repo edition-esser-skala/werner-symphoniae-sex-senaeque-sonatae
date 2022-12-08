@@ -274,3 +274,98 @@ SonataPrimaViolinoI = {
     a8 a' gis a4 r8\fermata \bar "|." %139 finis
   }
 }
+
+SymphoniaSecundaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key b \major \time 2/4 \tempoSymphoniaSecunda
+    b''16\fE f d b d8 f
+    b b, r f'
+    f16( g) g( f) f( es) es d32 c
+    d8 b r c
+    d16( c) d8 r c\p %5
+    d16( c) d8 r c\f
+    c16( d) d( c) c( b) b a32 g
+    a8 f r g'
+    a16 f c a c8 g'
+    a16 f c a c8 g' %10
+    a16( b c) f, a8 g
+    f4 r8 b
+    g16 b8 g16^\critnote f8 b
+    es,16 c'8 es,16 d8 f
+    c16 f8 c16 b g'8 b,16 %15
+    a8 f r a
+    \tuplet 3/2 8 { b16[-! c-! d]-! d-! es-! f-! g[ es d] c b a }
+    \tuplet 3/2 8 { b[ c d] d es f g[ es d] c b a }
+    \tuplet 3/2 8 { b[ c d] d es f g[ es d] c b a }
+    b8 g d c %20
+    b4 r16 c' d e
+    f( e) f8 r e
+    \once \slurDashed f16( e) f8 r e
+    f16 g a b c g a b
+    a8 f, r fis %25
+    g16 a b c d a b c
+    \appoggiatura c8 h8. h16 c8 d
+    es16 f g f es8 d
+    \appoggiatura d cis8. cis16 d8 e
+    f16 g a b a8. g16 %30
+    f g a b a8. g16
+    \tuplet 3/2 8 { f[-! e-! d-!] f-! g-! a-! b g f e[ d cis] }
+    \tuplet 3/2 8 { d[ e f] f g a b[ g f] e d cis }
+    \tuplet 3/2 8 { d[ e f] f g a b[ g f] e d cis }
+    d8 f~ f16 f d' f, %35
+    es! as g f es8 d
+    c es~ es16 es c' es,
+    d g f es d8 c
+    d16( c) d8 r c
+    d16( c) d8 r c %40
+    d16( g) g( f) f( es) es d32 c
+    d16(\p g) g( f) f( es) es d32 c
+    d16(\f f) f( es) es( d) d( c)
+    c8 f, r a
+    \tuplet 3/2 8 { b16[-! c-! d-!] d-! es-! f-! g es d c[ b a] } %45
+    \tuplet 3/2 8 { b[ c d] d es f g[ es d] c b a }
+    \tuplet 3/2 8 { b[ c d] d es f g[ es d] c b a }
+    b8 g d c
+    b b' c, a' \noBreak
+    b4 r\fermata \bar "||" %50
+    \time 3/4 \tempoSymphoniaSecundaB \newSpacingSection
+      b2.~\fE \noBreak
+    b4 a \tuplet 3/2 4 { c8 d es }
+    d2.~
+    d4 c b'!
+    a2.~ %55
+    a4 fis d
+    b'2.~
+    b4 a g
+    fis2 a4
+    d, es d~ %60
+    d cis2 \noBreak
+    d2.\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaSecundaC \newSpacingSection
+    \repeat volta 2 {
+      b4.~\fE \noBreak
+      b8 a b
+      c16 d es4~ %65
+      es8 d es
+      f16( d b8) as
+      g'16( es c8) b
+      a!16 b c8 d
+    }
+    \alternative { { c4 r8 } { c4 r8 } } %71
+    \repeat volta 2 {
+      f4.~ \noBreak
+      f8 e g
+      b,4.~
+      b8 a c %75
+      es!4.~
+      es8 d f
+      as,4.~
+      as8 g f'~
+      f e g %80
+      f es d!
+      \tuplet 3/2 8 { c16 d es } \appoggiatura d8 c4\trill
+    }
+    \alternative { { b4 r8 } { b4 r8\fermata } } \bar "|." %84 finis
+  }
+}
