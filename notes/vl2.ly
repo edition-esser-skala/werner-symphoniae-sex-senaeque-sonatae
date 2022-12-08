@@ -370,3 +370,228 @@ SymphoniaSecundaViolinoII = {
     \alternative { { b4 r8 } { b4 r8\fermata } } \bar "|." %84 finis
   }
 }
+
+SonataSecundaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key g \dorian \time 3/2 \tempoSonataSecunda
+    b'2\fE r4 g b c8 d
+    g,2 r4 g es' c
+    d2 d4( d,) e!2
+    fis d'4( d,) d2
+    r h'4( d) g2 %5
+    r g,4( c) e!2
+    r a,4( c) f2
+    r d4( f) b2
+    r b,4( b,) b2
+    r f'4( b) b2 %10
+    b1 a2~
+    a g4( fis) g2~
+    g f4( es) f2~
+    f es4( d) es2~
+    es d4( c) d2~ %15
+    d c4( b) c2 \noBreak
+    d1.\fermata \bar "||"
+    \twotwotime \time 2/2 \tempoSonataSecundaB \newSpacingSection
+      g1\fE \noBreak
+    d'
+    es2 d4 cis %20
+    d2 h
+    c! b4 a
+    b2 a4 g
+    a1\trill
+    g4 a b cis %25
+    d e f2~
+    f e
+    d e
+    cis d
+    h cis %30
+    d4 a d2~
+    d c!
+    b a4 g
+    a2 d~
+    d4 c b c %35
+    a2 d
+    g, r4 e'!
+    a,2 d
+    g,4 es' d c
+    d2 c4 b %40
+    c a c2~
+    c h
+    c4 d es8 f g4
+    f2. es4
+    d c b a %45
+    g es f g
+    a b c8 d es4
+    d2 . c4
+    b a g f!
+    e!2 a4 g %50
+    f e d2~
+    d cis
+    d r
+    R1
+    g %55
+    d'
+    es2 d4 cis
+    d2 h
+    c! b4 a
+    b2 a4 g %60
+    c2 d4 e!
+    f2 e~
+    e d~
+    d e
+    a, d~ %65
+    d cis
+    d1
+    R
+    r2 d'
+    c b4 a %70
+    b2 a4 g
+    a d, d'2~
+    d c~
+    c h
+    c4 c, b! a %75
+    b2. c4
+    b2 a
+    b1
+    r2 f
+    b1 %80
+    d2 c4 h
+    c2 b4 a
+    b2 a4 g
+    a1
+    g2 r4 e'! %85
+    a,2 d
+    g,4 es' d c
+    f, d' c b
+    c2 a
+    b r %90
+    r g'~
+    g f!
+    es d~
+    d c
+    d4 d, d'2 %95
+    c b4 a
+    b2 b'
+    a g4 fis
+    g fis g a
+    d, cis d e %100
+    fis g a fis
+    g2. a4
+    g2 fis
+    g1~
+    g %105
+    r2 g,4 a
+    h c d2
+    es g,
+    es'4 d c es
+    d2 g,~ %110
+    g fis \noBreak
+    g1\fermata \bar "||"
+    \time 3/4 \tempoSonataSecundaC \newSpacingSection
+      b8\fE g b4 r8 b \noBreak
+    a2 r4
+    fis' g r8 g %115
+    g4 fis r
+    r b d,
+    cis d2~
+    d cis4
+    c2 b!8 a %120
+    b2.~
+    b4 a g
+    fis a g8 fis
+    g2.\trill \noBreak
+    fis\fermata \bar "||" %125
+    \time 3/8 \tempoSonataSecundaD \newSpacingSection
+      g16\fE a b c a b \noBreak
+    g a b8 r
+    a16 b c d b c
+    a b c8 r
+    b a d~ %130
+    d cis16 d e8
+    a, d c
+    b a h
+    c e d
+    c h cis %135
+    d4 c8
+    c b16 a b8
+    a d c
+    b g r
+    b f g %140
+    c, r r
+    c' g a
+    d,16 d' c b a c
+    r b a g f a
+    r g f es d f %145
+    es d c8 a'
+    b4.~
+    b~
+    b4 a8
+    b16 c d es c d %150
+    b a b8 r
+    a16 b c d b c
+    a g a8 r
+    g16 a b c a b
+    g f g8 r %155
+    f16 g a b g a
+    f b d es c d
+    b a b c a b
+    g f g a f g
+    e d e8 e~ %160
+    e d b'~
+    b16 g f8 e
+    d d' c!
+    b a h
+    c e! d %165
+    c h cis
+    d e16 d h cis
+    d8 cis c
+    b!16 c d c a h
+    c8 h b %170
+    a16( a') g4
+    fis8 g d
+    r a'4
+    gis8 a e
+    fis g d %175
+    e f c
+    d g,8. f16
+    f g a b g a
+    f g a8 r
+    g16 a b c a b %180
+    g a b8 r
+    a16 b c d b c
+    a b c8 b
+    a g c
+    f, e a %185
+    f d r
+    f' c d
+    g,4 r8
+    g' d e
+    a,16 a' g f e g %190
+    r f, e d c e
+    r d' c b a c
+    b8 g' f!
+    es es, g'
+    r f es %195
+    d d, f'
+    r e! d
+    cis cis, e'
+    r d c
+    b16 a b c a b %200
+    g-\critnote fis g a a h
+    c b? a h g a
+    fis e fis g e fis
+    g a b c a b
+    a b c d b c %205
+    b c d es c8~
+    c d16 c b8~
+    b16 c a8.\trill g16
+    g8 d' c
+    b16 a b c a b %210
+    g f g a f g
+    es8 c'4~
+    c8 d16 c b a
+    b c a8.\trill g16
+    g4 r8\fermata \bar "|." %215 finis
+  }
+}
