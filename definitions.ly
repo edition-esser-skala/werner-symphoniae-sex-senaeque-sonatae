@@ -29,6 +29,11 @@ tempoSymphoniaTertia = \tempoMarkup "Allegro"
 tempoSymphoniaTertiaB = \tempoMarkup "Larghetto"
 tempoSymphoniaTertiaC = \tempoMarkup "Allegro assai"
 
+tempoSonataTertia = \tempoMarkup "Adagio"
+tempoSonataTertiaB = \tempoMarkup "Allegro"
+tempoSonataTertiaC = \tempoMarkup "Adagio"
+tempoSonataTertiaD = \tempoMarkup "Vivace"
+
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

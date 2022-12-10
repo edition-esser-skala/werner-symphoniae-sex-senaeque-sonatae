@@ -727,3 +727,141 @@ SymphoniaTertiaViolinoI = {
     \alternative { { f4 r8 } { f4 r8\fermata } } \bar "|." %136 finis
   }
 }
+
+SonataTertiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \dorian \time 3/4 \tempoSonataTertia
+      \override Staff.TimeSignature.style = #'single-digit
+    R2.*3
+    c'4\fE d! e
+    f g as8( h,) %5
+    c f es!4 d\trillE
+    c f es8 d
+    es4 g, r
+    f' g8( a) a8.(\trill g32 a)
+    b4. as8 g4 %10
+    as2 g4~
+    g f es8 des
+    c4 b8( c) c8.(\trill b32 c)
+    des4 c8( d) d8.(\trill c32 d)
+    es4 d8( e) e8.(\trill d32 e) %15
+    f8( g) g8.(\trill f32 g) as4
+    g f8( e) f4
+    e c c8(\p des)
+    des( c) c4 h\trill \noBreak
+    c2 r4\fermata \bar "||" %20
+    \time 4/4 \tempoSonataTertiaB \newSpacingSection
+      \revert Staff.TimeSignature.style
+      \partial 8 f8~\fE \noBreak
+    f e f c16 d es8 es r es~ \noBreak
+    es d es b16 c des8 des r des
+    c b16 as b8 c as16 c e, g f as g b
+    as c e, g f as g b as8 g16 f as8. as16 %25
+    g4 es'!4. d16 c d8 e
+    f4 d4. c16 b c8 d
+    es! d16 c d8 h c d es h
+    c d es h c b as!4
+    g\trill f16 f' es f b,4~ b16 c b c %30
+    f,8 f r16 es' des es as,4~ as16 b as b
+    es,8 c' b g' c,2~
+    c~ c16 f, as c f8 es!
+    des16 f a, c b des c es des f a, c b des c es
+    des es f es des8 c h d g h, %35
+    c es c' f, es d16 c g'8 f16 es
+    d8 g, g'4. f16 es f8 g
+    as! as r as4 g16 f g8 as
+    b b r b4 as16 g as8 b
+    c c r c~ c16 b as g f8 c' %40
+    d,4 r8 b'~ b16 as g f es8 b'
+    c,4 r8 as'~ as16 g f es des8 as'
+    b,4 r8 g'~ g16 f e d c8 g'
+    as, f r4 r r8 f'~
+    f e f c16 d es8 es r es~ %45
+    es d es b16 c des8 des r des
+    c b16 as b8 c a b4 a8
+    b as16 g as8 b g as4 g8
+    as16 c b des c es g, b as c b des c es g, b
+    as b c es des f a, c b des c es des f a, c %50
+    b c d f es g h, d c es d f es g h, d
+    c8 c'~ c16( b!) b( as!) g( f) es-! d-! g( f) es-! d-!
+    f( e) d-! c-! f( e) d c f( es) d c f( es) d c
+    es( d) c b es( d) c b es( d) c b es( d) c b
+    c8 d es2 des4~ %55
+    des8 es16 des c4. des16 c b8 as
+    g es as4. g16 f g4\trill
+    as r8 as'4 g16 f g8 a
+    b b, r b'4 as16 g as8 h
+    c c, r c4 h8 g b~ %60
+    b a f as g e16 g f as g b
+    as c e, g f as g b as8 b c des
+    as4 g\trill f8 a16 c b des c es
+    des f a, c b des c es des es f es des8. des16 \noBreak
+    c8 f4 e8 f4 r\fermata \bar "||" %65
+    \time 3/2 \tempoSonataTertiaC \newSpacingSection
+      f2\fE b,2. c4 \noBreak
+    des2. es4 c2
+    f4( des) b2 es~
+    es2. f4 des2
+    ges4( es) c2 f~ %70
+    f2. g4 es2
+    as4( f) es2( d4.)\trill c8
+    c1 r2
+    c'1 b2
+    b1 as2 %75
+    as1 g2
+    g1 f2~
+    f f, f
+    f( e) c'~
+    c h1 \noBreak %80
+    c1.\fermata \bar "||"
+    \time 3/4 \tempoSonataTertiaD \newSpacingSection
+      \override Staff.TimeSignature.style = #'single-digit
+      R2.*3
+    f4\fE as4. g16 f %85
+    g8 h, c g' as g16 f
+    g8 h, c f es16 c d h
+    c8 c, r es' des16 b c a
+    b8 b, r des' c16 as b g
+    as8 b c d e f %90
+    g c4 f,8 b4~
+    b8 c16 b as b as g f8 b~
+    b c16 b as8 g f e
+    f16 as g b as4. g8
+    as16 c h d c4. h8 %95
+    c g as!4. g16 f
+    g8 c f, b f g
+    as4 f, r
+    R2.*2 %100
+    c'4 des4. c16 b
+    c8 e, f c' des c16 b
+    c8 e, f b as16 as' g f
+    es4. des16 c des f es g
+    f as g b as4. g16 f %105
+    es8 des c as des4~
+    des8 es16 des c des c b as g as b
+    c b c des es8 as, as'4~
+    as8 b16 as g as g f es g f es
+    d8 g4 c,8 f4~ %110
+    f8 g16 f es f es d c8 f~
+    f g16 f es8 d c h
+    c es~ es16 c es c a8 f'
+    r des~ des16 b des b g8 es'
+    r es des c4 h8 %115
+    c g' as4. g16 f
+    a4 b4. as16 g
+    h4 c4. b8
+    as16 b c8 b as g f
+    e16 f g8 f,4 r8 b %120
+    f' as, g4 r8 c
+    g' b, as4 r8 c
+    f es des c b as
+    g16 f e d c8 g'' as g16 f
+    g8 h, c g' as g16 f %125
+    g8 h, c16 e d f e g f as
+    g as f g e8. e16 f g e g
+    f4 f,4. e8
+    f16 g as b c8 des as g
+    f4 r r\fermata \bar "|." %130 finis
+  }
+}
