@@ -580,3 +580,150 @@ SonataSecundaViolinoI = {
     g4 r8\fermata \bar "|." %215 finis
   }
 }
+
+SymphoniaTertiaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key f \major \time 2/4 \tempoSymphoniaTertia
+    f'4\fE c~
+    c8 c' b a
+    g4 c,~
+    c8 b' a g
+    a4 f,~ %5
+    f8 c' b a
+    g16 a g f e f e d
+    c4 r
+    f'\p c~
+    c8 c' b a %10
+    g4 c,~
+    c8 b' a g
+    a4 f,~
+    f8 c' b a
+    g16 a g f e f e d %15
+    c4 r
+    e'16(\f f) f4 c'8
+    es,2~
+    es8 d16 es f es d c
+    b4 r %20
+    fis'16( g) g4 d'8
+    f,2~
+    f8 e16 f g f e d
+    c4 r
+    g'16( a b4.) %25
+    a16( g f8) r4
+    f16( g as4.)
+    g16( f e8) r4
+    b!16( c d4.)
+    c16( b a4.) %30
+    c16( b a8) b g
+    f4 r
+    b16(\p c d4.)
+    c16( b a4.)
+    c16( b a8) b g %35
+    f4 r
+    c'16(\f d e4.)
+    e16( f g4.)
+    g16 f e d cis h? a g'
+    f( e d8) r4 %40
+    d16( e f4.)
+    fis16( g a4.)
+    a16 g fis e dis cis h a'
+    g( fis e8) g4~
+    g16 f e d cis h a g' %45
+    f( e d8) f4~
+    f16 e d c h a g f'
+    e( d c8) e4~
+    e16 d c h a g f e'
+    d( c h8) d4~ %50
+    d16 c h a gis fis? e d'
+    c( h a8) c4~
+    c8 h16 c h8 a
+    gis4 r
+    d'16( e f!4.) %55
+    e16( d c4.)
+    e16 d c8 d h
+    a4 r
+    d16(\p e f4.)
+    e16( d c4.) %60
+    e16 d c8 d h
+    a4 r
+    f'4\fE c~
+    c8 c' b a
+    g4 c,~ %65
+    c8 b' a g
+    a4 f,~
+    f8 c' b a
+    g16 a g f e f e d
+    c4 r %70
+    e'16( f) f4.
+    d16( es) es4.
+    cis16( d) d4.
+    R2
+    fis16( g) g4. %75
+    e16( f) f4.
+    dis16( e) e4.
+    R2
+    g16( a) b4.
+    d8 c4 b8 %80
+    f16( g) a4.
+    c8 b4 a8
+    d,16( e) f4.
+    a8 g4 f8
+    e16 f g f e f e d %85
+    c4 r
+    g'16( a b4.)
+    a16( g f8) r4
+    f16( g as4.)
+    g16( f e8) r4 %90
+    b!16( c d4.)
+    c16( b a4.)
+    c16( b a8) b g
+    f4 r
+    b16(\p c d4.) %95
+    c16( b a4.)
+    c16( b a8) b g \noBreak
+    f4 r\fermata \bar "||"
+    \time 3/4 \tempoSymphoniaTertiaB \newSpacingSection
+      d'2~\fE d8. f16 \noBreak
+    b,2~ b8. d16 %100
+    cis,2.~
+    cis8 d d4 r
+    d'2~ d8. f16
+    gis,2 r4
+    a2~ a8. e'16 %105
+    fis,2 r4
+    g2.
+    gis~
+    gis\trill \noBreak
+    a\fermata \bar "||" %110
+    \time 3/8 \tempoSymphoniaTertiaC \newSpacingSection
+    \repeat volta 2 {
+      f'4.\fE
+      \appoggiatura { e16[ d] } c4.
+      \appoggiatura { b16[ c] } d4.
+      \appoggiatura { c16[ b] } a4.
+      \appoggiatura { g'16[ a] } b4. %115
+      a16( g f8) c'~
+      c b a
+    }
+    \alternative { { g4 r8 } { g4 r8 } }
+    \repeat volta 2 {
+      c8( h) b %120
+      b( a) as
+      as( g) f
+      e16( f g4)
+      c,8(\p h) b
+      b( a) as %125
+      as( g) f
+      e16( f g4)
+      c4.(\fE
+      c16 es) d8 r
+      d4.( %130
+      d16 f) e!8 r
+      b'4.
+      a16( g f e) f8
+      d a g
+    }
+    \alternative { { f4 r8 } { f4 r8\fermata } } \bar "|." %136 finis
+  }
+}

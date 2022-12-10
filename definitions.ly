@@ -25,6 +25,10 @@ tempoSonataSecundaB = \tempoMarkup "Alla breve"
 tempoSonataSecundaC = \tempoMarkup "Largo"
 tempoSonataSecundaD = \tempoMarkup "Allegro"
 
+tempoSymphoniaTertia = \tempoMarkup "Allegro"
+tempoSymphoniaTertiaB = \tempoMarkup "Larghetto"
+tempoSymphoniaTertiaC = \tempoMarkup "Allegro assai"
+
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

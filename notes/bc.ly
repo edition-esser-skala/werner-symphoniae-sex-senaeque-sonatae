@@ -1061,3 +1061,290 @@ SonataSecundaBassFigures = \figuremode {
   <[_-]>8 <4> <_+>
   r4. %215 finis
 }
+
+SymphoniaTertiaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key f \major \time 2/4 \tempoSymphoniaTertia
+    f8\fE g a b
+    a4 b
+    << { c s } \\ { c,8 d e f } >>
+    e4 c
+    f8 g a b %5
+    a4 b
+    c r
+    c16 d c b a b a g
+    f8\p g a b
+    a4 b %10
+    << { c s } \\ { c,8 d e f } >>
+    e4 c
+    f8 g a b
+    a4 b
+    c r %15
+    c,8 c'\f c16 d c b
+    a8 a a a
+    a a a a
+    b b b b
+    b b b b %20
+    h h h h
+    h h h h
+    c c c c
+    c c c c
+    e, e e e %25
+    f f f f
+    h, h h h
+    c c c c
+    e e e e
+    f f f f %30
+    f4 c
+    f,8 a' g f
+    e\p e e e
+    f f f f
+    f4 c %35
+    f,8 f'\f e d
+    c c' c c
+    b! b b b
+    a a a a
+    d, d d d %40
+    d d' d d
+    c! c c c
+    h h h h
+    e, e e e
+    a a a a %45
+    d, d d d
+    g g g g
+    c, c c c
+    f f f f
+    h, h h h %50
+    e e e e
+    a a a a
+    dis, dis dis dis
+    e e' e, fis
+    gis gis gis gis %55
+    a a a a
+    a4 e
+    a,8 c'\p h a
+    gis gis gis gis
+    a a a a %60
+    a4 e
+    a,8 c'16\f b! a8 g!
+    f g a b
+    a4 b
+    << { c s } \\ { c,8 d e f } >> %65
+    e4 c
+    f8 g a b
+    a4 b
+    c r
+    c16 d e d c d c b %70
+    a8 a a a
+    a a a a
+    b b b b
+    b b b b
+    h h h h %75
+    h h h h
+    c c c c
+    c c c c
+    e, e e e
+    e e e e %80
+    f f f f
+    f f f f
+    h, h h h
+    h h h h
+    c c c c %85
+    c c c c
+    e e e e
+    f f f f
+    h, h h h
+    c c c c %90
+    e e e e
+    f f f f
+    f4 c
+    f,8 a'\p g f
+    e e e e %95
+    f f f f
+    f4 c \noBreak
+    f, r\fermata \bar "||"
+    \time 3/4 \tempoSymphoniaTertiaB \newSpacingSection
+      d'4\fE d d \noBreak
+    d d d %100
+    d d d
+    d d d
+    d d d
+    d d d
+    cis cis cis %105
+    c c c
+    b! b b
+    h h h
+    h h h \noBreak
+    a2.\fermata \bar "||" %110
+    \time 3/8 \tempoSymphoniaTertiaC \newSpacingSection
+    \repeat volta 2 {
+      f'8\fE f f \noBreak
+      f f f
+      f f f
+      f f f
+      c c c %115
+      f4 r8
+      e4 f8
+    }
+    \alternative { { c8 c'16 b a g } { c,8 g'16 f e d } }
+    \repeat volta 2 {
+      c8-\tasto c c %120
+      c c c
+      c c c
+      c c c
+      c\p c c
+      c c c %125
+      c c c
+      c\f c' b
+      a a a
+      b b b
+      h h h %130
+      c c c
+      e, e e
+      f g a
+      b c c,
+    }
+    \alternative { { f f,16 g a b } { f4 r8\fermata } } \bar "|." %136 finis
+
+  }
+}
+
+SymphoniaTertiaBassFigures = \figuremode {
+  r4 \bo <[6]>8 <2>
+  \bc <[6]>2
+  r
+  r
+  r %5
+  r4 <6>8 <5>
+  r2
+  r
+  r4 \bo <[6]>8 <2>
+  \bc <[6]>2 %10
+  r
+  r
+  r
+  r4 <6>8 <5>
+  r2 %15
+  r
+  <6>
+  <5->
+  <4->8 <3>4.
+  r2 %20
+  <6>
+  <5>
+  <4>8 <3>4.
+  r2
+  <6>8 <5->4. %25
+  r2
+  <7->
+  r
+  <7 5->
+  r %30
+  r4 <[7]>
+  r2
+  <7 5>
+  r
+  r4 <[7]> %35
+  r2
+  r
+  <4 2+>
+  <7 _+>
+  r %40
+  r
+  <4+ 2+>
+  <7 [5+] _+>
+  <[5!]>
+  <7 _+> %45
+  <[_!]>
+  <7 _!>
+  <7!>
+  <7>
+  q %50
+  <7 [5!] _+>
+  r
+  \bo <7 [_+]>8 \bc <6! [\t]>4.
+  <[5!] _+>2
+  <7! 5 [_!]> %55
+  r
+  r4 <[7 5!] _+>
+  r8 \bo <[6]> \bc <[6\\]>4
+  <7 5 [_!]>2
+  r %60
+  r4 <[7 5!] _+>
+  r2
+  r4 \bo <[6]>8 <2>
+  \bc <[6]>2
+  r2 %65
+  r
+  r
+  r4 <6>8 <5>
+  r2
+  r %70
+  <6>
+  <5->
+  r
+  r
+  <6> %75
+  <5>
+  r
+  r
+  <6>8 <5->4.
+  \bo <[7 5]>8 <6 4>4 \bc <[5 3]>8 %80
+  r2
+  r
+  <7 5>
+  <\t \t>8 \bo <[6 4]>4 \bc <[5 3]>8
+  r2 %85
+  r
+  <6>8 <5->4.
+  r2
+  <7- 5>2
+  r %90
+  <7 5->
+  r
+  r4 <[7]>
+  r2
+  <7 5> %95
+  r
+  r4 <[7]>
+  r2
+  r2.
+  <6 4> %100
+  <7+ 4 2>
+  <8 3>
+  r
+  <[6!] 4+ 2>
+  <6> %105
+  <4+ _->
+  <6>
+  <6\\>
+  <6\\ 5>4 \bassFigureExtendersOn <6\\ 4> <6\\ 3> \bassFigureExtendersOff
+  <_+>2. %110
+  r4.
+  r
+  <6 4>
+  <5 3>
+  r %115
+  r
+  \bo <[6]>8 \bc <[5]>4
+  r4.
+  r
+  r %120
+  r
+  r
+  r
+  r
+  r %125
+  r
+  r
+  <6>
+  r
+  <[6]> %130
+  r
+  <5->
+  r8 <6> q
+  r <6 4> <5 3>
+  r4. %135
+  r %136 finis
+}
