@@ -1596,3 +1596,253 @@ SonataTertiaBassFigures = \figuremode {
   r <5> <6> <[_-]> <6 4> <5 _!>
   r2. %130 finis
 }
+
+SymphoniaQuartaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key a \major \time 2/4 \tempoSymphoniaQuarta
+    a4\fE cis8 a
+    e'4. fis8
+    gis4 e
+    a4. h8
+    cis4 a %5
+    d r8 h\p
+    cis4 a
+    d r8 h\f
+    cis4 r8 a
+    h4 r8 gis %10
+    a4 d,
+    e8 e' e, fis
+    gis4 e
+    a r8 fis\p
+    gis4 e %15
+    a r8 fis\f
+    gis4 e
+    fis e
+    dis cis
+    h r %20
+    h' dis,
+    e8 fis gis a
+    h4 h,
+    e8 h' e d!
+    cis4 cis, %25
+    d8 d'16 cis h8 a
+    gis!2
+    a,8 a' fis e
+    d4 r
+    e gis %30
+    a8 d, e e,
+    a4 fis'
+    d\p e
+    a fis
+    d\f e %35
+    a,8 a' gis fis
+    gis4 e
+    a,8 a'4 gis8
+    fis4 e
+    dis r8 e %40
+    fis e dis cis
+    h4 r8 dis
+    e4 a
+    h,8 h' h a
+    gis4 e %45
+    h'4. a8
+    gis4\p e
+    h'4. a8
+    gis4\f dis
+    e fis %50
+    gis a
+    h8 a gis a
+    h4. a8
+    gis4 fis
+    eis cis %55
+    fis d!
+    h\p cis
+    fis d
+    h\f cis
+    fis,8 fis' e! d %60
+    cis4 a
+    d r
+    dis h
+    e gis
+    a cis,8 a %65
+    e'4. fis8
+    gis4 e
+    a4. h8
+    cis4 a
+    d cis %70
+    h a
+    gis fis
+    e d
+    cis4. d8
+    e4 e, %75
+    a fis'
+    d\p e
+    a fis
+    d\f e \noBreak
+    a, r\fermata \bar "||" %80
+    \time 3/4 \tempoSymphoniaQuartaB \newSpacingSection
+      fis'2\fE e4 \noBreak
+    d d' c
+    h2.
+    e,4 cis2
+    h4 g' fis %85
+    eis fis e
+    dis e d
+    cis d cis
+    his his his
+    cis r r %90
+    r r his\pE \noBreak
+    cis2 r4\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaQuartaC \newSpacingSection
+    \repeat volta 2 {
+      a8\fE a'4~ \noBreak
+      a8 gis e
+      fis4 gis8 %95
+      a cis a
+      h4 cis8
+      d4 cis8
+      h4 a8
+    }
+    \alternative { { e8. d16 cis h } { e8 h e, } } %101
+    \repeat volta 2 {
+      r gis' e \noBreak
+      a4 r8
+      r ais fis
+      h4 r8 %105
+      r dis, h
+      e e' cis
+      a h h,
+      e e' d!
+      cis a r %110
+      R4.
+      r8 a a,
+      e'4.
+      h4 e8
+      a,4 r8 %115
+      a' d, e
+    }
+    \alternative { { a e a, } { a4^\critnote r8\fermata } } \bar "|." %118 finis
+  }
+}
+
+SymphoniaQuartaBassFigures = \figuremode {
+  r2
+  r
+  <[6]>
+  r
+  <6> %5
+  <5>8 <6>4.
+  q2
+  <5>8 <6>4.
+  \bc <[6]>2
+  <6>4. \bo <[6 \l]>8 %10
+  r2
+  r
+  <6>
+  <5>8 <6>4.
+  q2 %15
+  <5>8 <6>4.
+  <6>2
+  <5 3>4 <\t \t>
+  <6> <7>
+  <_+>2 %20
+  q4 <6>8 \bc <[5 \l]>
+  r2
+  <6 4>4 <5 _+>
+  r2
+  \bo <[6]>4 <\t>8 \bc <[5!]> %25
+  <9 [4!]>4 \bo <[5]>
+  <6>4 <\t>8 \bc <[5]>
+  <9 [4]>4 \bo <[5]>8 \bc <[6]>
+  <6>2
+  r4 \bo <[6]>8 <5> %30
+  r \bc <[6]> <6 4> <5 3>
+  r4 <5>
+  <6> <6 4>8 <5 3>
+  r4 <5>
+  <6> <6 4>8 <5 3> %35
+  r2
+  <[6]>
+  r
+  <6\\>4 <5>8 <6>
+  q2 %40
+  r4 <5>
+  <7 _+>4. <5>8
+  r4 <6>8 <5>
+  <[4]>8 <_+>4.
+  <[6]>2 %45
+  <_+>
+  \bo <[6]>
+  <_+>
+  <6>4 q
+  r <6\\> %50
+  <6> <9>8 \bc <[8]>
+  <_+>4 <[6]>
+  <6 4> <5 _+>
+  <6>4 <6!>
+  <7>8 <6> \bo <[8 _+]> \bc <[7 \t]> %55
+  r4 <5>
+  <6> <6 4>8 <5 _+>
+  r4 <5>
+  <6> <6 4>8 <5 _+>
+  r4 \bo <[5 3]>8 <\t \t> %60
+  <6>2
+  r
+  <6>4 <_+>
+  r <6>
+  r2 %65
+  r
+  <6>
+  r
+  <6>
+  r4 <6 4>8 <\t 3> %70
+  r4 <6 4>8 <5 3>
+  <6>4 <7 4>8 <\t 3>
+  r4 <6 4>8 <5 3>
+  \bc <[6 \l]>2
+  <6 4>4 <5 3> %75
+  r2
+  <6>4 <6 4>8 <5 3>
+  r2
+  <6>4 <6 4>8 <5 3>
+  r2 %80
+  <5>4 <6> <6 _!>
+  r2 <[6]>4
+  <7 _+>2.
+  <_+>4 <5> <6\\>
+  <[_!]> <5 3> <6 4> %85
+  <7 5 [_+]> <5 4> <6! 4!>
+  <6 5> <_!> <6 4>
+  <6 5> <5 3> <6 4!>
+  <7 5 [_+]>2.
+  <_+> %90
+  r2 <7 5 [_+]>4
+  <_+>2.
+  r4.
+  <5 2>8 <\t \t>4
+  <7>8 <6>4 %95
+  <9>8 <6>4
+  <7>8 <6>4
+  r4 <[6]>8
+  <7> <6>4
+  r4. %100
+  r
+  r8 <[6]>4
+  r4.
+  r8 <6> \bc <[_+]>
+  <_+>4. %105
+  r8 \bo <[6]> \bc <[_+]>
+  r4.
+  r8 <6 4> <5 _+>
+  r4.
+  <[6]> %110
+  r
+  r
+  <4>8 <3>4
+  <4>8 <3>4
+  r4. %115
+  r8 <[6]>4
+  r4.
+  r %118 finis
+}

@@ -884,6 +884,135 @@ SonataTertiaViolinoII = {
   }
 }
 
+SymphoniaQuartaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key a \major \time 2/4 \tempoSymphoniaQuarta
+    cis'8\fE a e' a
+    h, gis4 a8
+    h4 gis16( fis) gis8
+    e cis'4 d8
+    e16 d e8 cis8 e %5
+    a, d r4
+    e16\p d e8 cis e
+    a, d r fis\f
+    a, cis~ cis16 d e8
+    gis, h r e, %10
+    e a~ a16 gis fis8
+    gis4. a8
+    h16 a h8 gis8 h
+    e, a r4
+    h16\p a h8 gis h %15
+    e, a r cis\f
+    e, gis~ gis16 a h8
+    a4 cis
+    h cis
+    dis8 fis16 e dis8 cis %20
+    h2~
+    h8 a h cis
+    gis4 fis
+    e gis8 h
+    e2~ %25
+    e4 d
+    h' h,~
+    h a8 gis
+    fis d'4 cis8
+    h2 %30
+    a8 h a gis
+    a4 cis,
+    r8 h'\p a gis
+    a4 cis
+    r8 h,\fE a gis %35
+    a4 r
+    e' gis16 a h8
+    e,4. fis16 gis
+    a4 gis8( cis)
+    h4 r8 e %40
+    cis dis16 e fis8 e
+    dis4 r8 fis
+    h,4 cis
+    fis,8 dis'~ dis16 e fis8
+    e, gis~ gis16 a h8 %45
+    fis dis'~ dis16 e fis8
+    e,\p gis~ gis16 a h8
+    fis4 dis'
+    e\f h~
+    h r8 fis %50
+    e4. a8
+    fis4 e~
+    e dis
+    e8 h' h a
+    gis4 eis %55
+    cis a'
+    r8 gis\p fis eis
+    fis4 a
+    r8 gis\f fis eis
+    fis a gis h %60
+    a4 r
+    a8( d) fis( d)
+    h4 r
+    h8 e~ e16 d cis d
+    cis4 e %65
+    h8 gis4 a8
+    h4 gis16( fis) gis8
+    e cis'4 d8
+    e4 cis
+    a~ a16 h cis8 %70
+    fis,4~ fis16 gis a8
+    e4~ e16 fis gis a
+    h4. cis16 d
+    e4 a,~
+    a gis %75
+    a cis,
+    r8 h'\p a gis
+    a4 cis
+    r8 h,\f a gis \noBreak
+    a4 r\fermata \bar "||" %80
+    \time 3/4 \tempoSymphoniaQuartaB \newSpacingSection
+      a'2\fE g4 \noBreak
+    a2.~
+    a4 h a
+    gis!2 ais4
+    h2.~ %85
+    h2 a!4~
+    a g2~
+    g4 fis2~
+    fis4 fis fis
+    eis2 fis4\pE %90
+    eis8 gis fis2\trill \noBreak
+    eis2 r4\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaQuartaC \newSpacingSection
+    \repeat volta 2 {
+      cis8\fE a16 h cis d \noBreak
+      e4 gis8
+      a4 h8~ %95
+      h a16 h cis8
+      d4 e8
+      a, fis' a,~
+      a gis a
+    }
+    \alternative { { gis8. fis16 e d } { gis8. fis16 e d } } %101
+    \repeat volta 2 {
+      e4 r8
+      cis e a16 cis
+      fis,4 r8
+      dis fis h16 dis %105
+      h,4 fis''8
+      gis h, cis16 dis
+      e8 gis, fis
+      e gis h
+      e cis16 e a,8 %110
+      d h16 d! gis,8
+      cis a16 h cis a
+      h8 e, e'~
+      e d h
+      cis e16 d cis h %115
+      a8 h gis
+    }
+    \alternative { { a a, cis } { a'4 r8\fermata } } \bar "|." %118 finis
+  }
+}
+
 % \time 3/4 \tempoSymphoniaB \newSpacingSection
 % \time 3/8 \tempoSymphoniaC \newSpacingSection
 % \repeat volta 2 {
