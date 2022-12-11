@@ -994,3 +994,180 @@ SymphoniaQuartaViolinoI = {
     \alternative { { a4 r8 } { a4 r8\fermata } } \bar "|." %118 finis
   }
 }
+
+SonataQuartaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key e \minor \time 3/4 \tempoSonataQuarta
+    R2.*3
+    h''2.~\fE
+    h4 ais fis %5
+    g2.
+    fis2 gis4
+    a e a~
+    a g!8 fis g e
+    fis4 h, r %10
+    e2.~
+    e4 dis h
+    c4. h8 c a
+    h4 e, r
+    a'2.~ %15
+    a4 gis e
+    f2.
+    e4 e, fis!
+    g8 a h4 cis
+    dis e fis~ %20
+    fis e fis~
+    fis g gis~
+    gis a h
+    c2.~
+    c4 h a %25
+    g!2.~
+    g4 a g \noBreak
+    fis2.\fermata \bar "||"
+    \time 4/4 \tempoSonataQuartaB \newSpacingSection
+      r4 e2\fE e,4 \noBreak
+    c'8 h c4 a' d,~ %30
+    d d, h'8 a h4
+    g'8 fis e d c h a16 h c8
+    h a g16 a h8 e4 ais,
+    h4. cis8 d cis d4
+    h e4 c r %35
+    c8 h c4 a d
+    h8 c d e16 fis g8 fis e d
+    c d e fis16 g a8 g fis e
+    d e fis g16 a h4. c16 h
+    a4. h16 a g4. a16 g %40
+    fis4 h2 h,4
+    g'8 a16 h c4 a, a'~
+    a a, fis'8 g16 a h4
+    g, g'8 fis e16 fis g8 fis e
+    d c h e a, d4 c8 %45
+    h h'4 a8 g h16 a g8 fis
+    e4. fis16 g a4. g8
+    fis a16 g fis8 e d4. e16 fis
+    g4. fis8 e g16 fis e4~
+    e8 fis d g d cis16 h cis4\trill %50
+    d8 fis16 e d8 cis h4 r
+    R1*4 %55
+    r4 a'2 a,4
+    fis'8 e fis4 d' g,~
+    g cis,, e'8 d e4
+    a4. g8 fis a16 g fis8 e
+    d1 %60
+    cis8 h a h a4 gis\trill
+    fis r a'4. g!8
+    fis a16 g fis8 e d h r4
+    g'4. fis8 e g16 fis e8 d
+    cis a a'4. g8 a4 %65
+    fis8 g16 a h8 c d d, d' c
+    h h, h'4. ais16 gis ais8 h
+    cis cis, cis'2 h4~
+    h8 a! g! fis e d cis h
+    ais4 h2 ais4 %70
+    h r h'4. a!8
+    g h16 a g8 fis e a, cis e
+    a4. g8 fis a16 g fis8 e
+    d4 d'8 c! h d16 c h8 a
+    g g, g' f e g16 f e8 d %75
+    c2~ c8 d h c
+    a4 r d4. c8
+    h d16 c h8 a g4 r
+    c4. h8 a c16 h a8 g
+    fis4 r h4. cis16 dis %80
+    e8 dis e2 d4~
+    d c2 h4~
+    h ais h h'~
+    h h, g'8 h16 a g8 fis
+    e4 a2 a,4 %85
+    fis'8 a16 g fis8 e d4 d'~
+    d d, g8 h16 a g8 fis
+    e4 c'2 c,4
+    fis8 a16 g fis8 e d8. e16 fis8 g16 a
+    h8 h, h'4 a2 %90
+    g fis4 f
+    e2 d4. e16 d
+    c2 h4. c16 d
+    e8 g fis! e dis4 e~
+    e dis e2~ %95
+    e r4 e,
+    dis e2 dis4 \noBreak
+    e2 r\fermata \bar "||"
+    \time 3/4 \tempoSonataQuartaC \newSpacingSection
+      \override Staff.TimeSignature.style = #'single-digit
+      g4\fE a r8 r16 gis \noBreak
+    a4 a, r %100
+    c' d r8 r16 cis
+    d4 d, r8 r16 d'
+    dis4 dis, r8 r16 dis'
+    e4 e, r8 r16 fis'
+    e4 e, r8 r16 e' %105
+    dis4 h, r8 r16 a'
+    g4 r r8 r16 g \noBreak
+    fis2 r4\fermata \bar "||"
+    \time 3/4 \tempoSonataQuartaD \newSpacingSection
+      r4 r e'\fE \noBreak
+    dis8 h d d d c16 h %110
+    c4 r a'
+    gis8 e g g g fis16 e
+    fis8 d f f f e16 d
+    e4. g8 fis e
+    dis h d e fis e16 d %115
+    cis4. dis16 e fis8 dis
+    h4. a8 h a16 g
+    fis4. gis16 a h8 gis
+    e4. fis16 g a8 fis
+    d e16 fis g8 a h cis16 d %120
+    e4. fis8 d e
+    fis e16 d cis2\trill
+    r8 h' h, cis d e
+    fis4 cis dis
+    r8 e e, fis g a %125
+    h4 fis gis
+    a e fis
+    g! r g'
+    fis8 d f g a g16 f
+    e4 r a %130
+    gis8 e g a h a16 g
+    fis4. gis16 a h8 gis
+    e4. fis16 g a8 fis
+    d4. e16 fis g8 e
+    cis4. dis16 e fis8 dis %135
+    h4 r e
+    dis8 h d d d c16 h
+    c!4 r a'
+    gis8 e g g g fis16 e
+    fis4. gis16 a h8 gis %140
+    e4. fis16 g a8 fis
+    d e h4 a\trill
+    g r g'
+    fis8 d f f f e16 d
+    e4 a, a' %145
+    gis8 e g g g fis16 e
+    fis8 h h, cis d e
+    fis4 cis dis
+    e h cis
+    d!4. e8 fis g %150
+    a d, d4 cis
+    d a d
+    cis8 a' a, h cis dis
+    e16 fis g8~ g a h a16 g
+    fis4 r h %155
+    ais8 fis a a a g16 fis
+    g4. a8 h a16 g
+    fis4. gis16 a h8 gis
+    e4. fis16 g a8 fis
+    d4. e16 fis g8 e %160
+    cis4. dis16 e fis8 dis
+    h4 e e,~
+    e dis h''
+    ais8 fis a a a gis16 fis
+    gis8 e g4. fis16 e %165
+    fis8 g a h g a
+    fis4 g8 a h4~
+    h8 c g4 fis\trill
+    e r h8 c
+    dis, a' g4 fis %170
+    e2 r4\fermata \bar "|." %171 finis
+  }
+}
