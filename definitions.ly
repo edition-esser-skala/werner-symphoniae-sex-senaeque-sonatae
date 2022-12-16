@@ -43,6 +43,14 @@ tempoSonataQuartaB = \tempoMarkup "Allegro"
 tempoSonataQuartaC = \tempoMarkup "Largo"
 tempoSonataQuartaD = \tempoMarkup "Tempo giusto"
 
+tempoSymphoniaQuinta = \tempoMarkup "Allegro"
+tempoSymphoniaQuintaB = \tempoMarkup "Adagio"
+tempoSymphoniaQuintaC = \tempoMarkup "Allegro assai"
+
+tempoSonataQuarta = \tempoMarkup "Largo"
+tempoSonataQuartaB = \tempoMarkup "Allegro"
+tempoSonataQuartaC = \tempoMarkup "Largo"
+tempoSonataQuartaD = \tempoMarkup "Tempo giusto"
 
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

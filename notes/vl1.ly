@@ -1171,3 +1171,146 @@ SonataQuartaViolinoI = {
     e2 r4\fermata \bar "|." %171 finis
   }
 }
+
+SymphoniaQuintaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoSymphoniaQuinta
+    d'16(\fE a) a4.
+    h16( g) a4.
+    g'16( e) a,4 g'16( e)
+    fis8 d, r4
+    g16(\p e) a,4 g'16( e) %5
+    fis8 d r fis'16\f g
+    fis( e) e-! fis-! e( d) d-! e-!
+    cis8 a, r fis'16\p g
+    fis( e) e-! fis-! e( d) d-! e-!
+    cis8 a r e''\f %10
+    e16 fis e fis e fis e fis
+    e fis e fis e fis e fis
+    e d cis d cis8 h
+    a4 r8 cis
+    cis16 d e d cis4~ %15
+    cis16 d e d cis4~
+    cis16 d e d cis8 ais
+    fis fis' r fis
+    fis16 g! a! g fis4~
+    fis16 g a g fis4~ %20
+    fis16 g a g fis8 dis
+    h h' r e,
+    e( f) a( f)
+    \appoggiatura e dis4 r8 dis
+    dis( e) g( e) %25
+    \appoggiatura d cis4 r8 \tuplet 3/2 8 { cis16 d e }
+    d8 cis16 h a8 \tuplet 3/2 8 { e'16 fis g }
+    fis8 e16 d cis8 \tuplet 3/2 8 { g'16 a h }
+    a8 g16 fis h8 d,
+    cis16 d e d cis h a g %30
+    fis8 \tuplet 3/2 8 { e'16 fis g } fis8 e
+    d \tuplet 3/2 8 { e,16\p fis g } fis8 e
+    d \tuplet 3/2 8 { e'16\f fis g } fis8 e
+    d4 r
+    a'16( e) e4. %35
+    fis16( d) e4.
+    d16( h) e,4 d'16( h)
+    cis8 a, r4
+    d'16(\p h) e,4 d'16( h)
+    cis8 a, r cis'\f %40
+    dis16( cis) dis4.
+    e16( fis) g!4 e8
+    cis16( h) cis4.
+    d!16( e) fis4 d8
+    h16( ais) h4. %45
+    cis16( d) e4 cis8
+    ais16( gis) ais4.
+    h16( cis) d4 h8
+    cis16( d) e4 cis8
+    d16( e) fis4 g8 %50
+    \appoggiatura h,8 ais4 r8 fis'
+    fis16 g fis g fis g fis g
+    fis g fis g fis g fis g
+    fis e d e d8 cis
+    h4 r8 e %55
+    e16 fis e fis e fis e fis
+    e fis e fis e fis e fis
+    e d cis d cis8 h
+    a4 r8 d
+    d16( g) h4 d,8 %60
+    d16( fis) a4 d,8
+    cis16 d e fis g a h cis
+    d8 d, r fis
+    e16( h') a( g) fis( e) d( e)
+    cis( e) d( cis) h( a) g( a) %65
+    fis( a) g( fis) \slurDashed e( d) cis( d) \slurSolid
+    cis8 a r4
+    d'16( a) a4.
+    h16( g) a4.
+    g'16( e) a,4 g'16( e) %70
+    fis8 d, r4
+    g16(\p e) a,4 g'16( e)
+    fis8 d r a'\f
+    h16 cis h a g fis e d
+    cis4 r8 \tuplet 3/2 8 { cis'16 d e } %75
+    d8 cis16 h a8 \tuplet 3/2 8 { e'16 fis g }
+    fis8 e16 d cis8 \tuplet 3/2 8 { g'16 a h }
+    a8 g16 fis h8 d,
+    cis16 d e d cis h a g
+    fis8 \tuplet 3/2 8 { e'16 fis g } fis8 e %80
+    d \tuplet 3/2 8 { e,16\p fis g } fis8 e
+    d \tuplet 3/2 8 { e'16\f fis g } fis8 e \noBreak
+    d4 r\fermata \bar "||"
+    \time 3/4 \tempoSymphoniaQuintaB \newSpacingSection
+      h8.(\fE cis16) d4 eis \noBreak
+    fis8( fis,) fis4 r %85
+    e'!8.( fis16) g4 fis8( e)
+    d8.( cis16) h4 r
+    h e8( g) h( d,)
+    cis4 a, r
+    r fis''2~ %90
+    fis8 h, h4 dis
+    e, e'2~
+    e8 ais, ais4 cis
+    d, d' fis~
+    fis e2~ %95
+    e4 d cis
+    d2.\trill \noBreak
+    cis\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaQuintaC \newSpacingSection
+    \repeat volta 2 {
+      d4.\fE \noBreak
+      cis16( e) a,4 %100
+      g16( h) a,4
+      fis'16( a) d,4
+      a'8 fis'( e
+      d cis h)
+      a-! g-! fis-! %105
+    }
+    \alternative { { e4 r8 } { e4 r8 } }
+    \repeat volta 2 {
+      a'4.
+      gis
+      g %110
+      fis
+      f
+      e8( f e)
+      d( cis d)
+      cis4 r8 %115
+      d4.
+      h
+      g
+      cis16( e) a,4
+      cis16( e) g,4 %120
+      fis!16( d') f,4
+      g8 fis e
+    }
+    \alternative { { d4 r8 } { d4 r8\fermata } } \bar "|." %124 finis
+  }
+}
+
+SonataQuintaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/4 \tempoSonataQuinta
+    
+  }
+}

@@ -1191,6 +1191,141 @@ SonataQuartaViolinoII = {
   }
 }
 
+SymphoniaQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key d \major \time 2/4 \tempoSymphoniaQuinta
+    d16(\fE fis) fis4.
+    g16( e) fis4.
+    cis'8 cis4 e16( cis)
+    d8 fis, r4
+    cis8\p cis4 e16( cis) %5
+    d8 fis r a~\f
+    a cis fis, h
+    e, cis r a'~\p
+    a cis, gis' h,
+    e cis r a'16\f h %10
+    cis d cis d cis d cis d
+    cis d cis d cis d cis d
+    cis h a h a8 gis
+    a4 r8 a
+    ais4~ ais16 h cis h %15
+    ais4~ ais16 h cis h
+    ais4~ ais16 h cis ais
+    h8 h,-\critnote fis' h16 cis
+    dis4~ dis16 e fis e
+    dis4~ dis16 e fis e %20
+    dis4~ dis16 e fis dis
+    e8 e, g h
+    c4. c8
+    h4~ h16 dis fis dis
+    h4. h8 %25
+    a4~ a16 cis e cis
+    a4 e'8 cis
+    a4 g8 e'
+    d4~ d16 h g h
+    e,8 cis' e cis %30
+    a h16( e) d8 cis
+    d h,16(\p e) d8 cis
+    d h'16(\f e) d8 cis
+    d d,16 e fis g a h
+    cis( a) cis4. %35
+    d16( h) cis4.
+    gis8 gis4 h16( gis)
+    a8 cis, r4
+    gis'8\p gis4 h16( gis)
+    a8 cis, r e\f %40
+    fis4. g16 a
+    h8 g h g
+    e4. fis16 g
+    a8 fis a fis
+    d4. e16 fis %45
+    g8 e g e
+    cis4. d16 e
+    fis8 d fis d
+    r cis' fis, e'
+    r d h h,16 e %50
+    cis8 ais' fis cis'
+    d16 e d e d e d e
+    d e d e d e d e
+    d cis h cis h8 ais
+    h4 r8 h %55
+    cis16 d cis d cis d cis d
+    cis d cis d cis d cis d
+    cis h a h a8 gis
+    a4 r8 fis
+    h d g^\critnote h %60
+    a, d fis a
+    g, cis e g
+    fis4 a,16 d cis d
+    h4 r8 h
+    e,4 r8 e' %65
+    a,4 h
+    e, r
+    d16( fis) fis4.
+    g16( e) fis4.
+    cis'8 cis4 e16( cis) %70
+    d8 fis, r4
+    cis8\p cis4 e16( cis)
+    d8 fis a\f d
+    d,4 h'
+    e,8 cis16 d e8 fis16 g %75
+    a4 e'8 a,
+    a4 g8 e'
+    d4~ d16 h g h
+    e,8 cis' e cis
+    a h16( e) d8 cis %80
+    d h,16(\p e) d8 cis
+    d h'16(\f e) d8 cis \noBreak
+    d4 r\fermata \bar "||"
+    \time 3/4 \tempoSymphoniaQuintaB \newSpacingSection
+      r4 h'\fE d, \noBreak
+    cis2 r4 %85
+    cis2 cis4
+    fis, d' fis
+    h8( h,) h4 r
+    e, a8( cis) e( g,)
+    fis4 d r %90
+    r h''2~
+    h8 e, e4 gis
+    ais, cis2~
+    cis8 fis, fis( g!) a4
+    h cis h %95
+    ais h ais
+    h2.\trill \noBreak
+    ais\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaQuintaC \newSpacingSection
+    \repeat volta 2 {
+      fis8\fE a fis \noBreak
+      e cis' r %100
+      cis, e cis
+      a fis' r
+      fis( a g)
+      fis( a g)
+      fis-! e-! d-! %105
+    }
+    \alternative { { cis4 r8 } { cis4 r8 } }
+    \repeat volta 2 {
+      r cis' a
+      h( cis d)
+      e( d e) %110
+      a,( h cis)
+      d( cis d)
+      h4 r8
+      h4 r8
+      e,( fis! g) %115
+      \once \slurDashed a( g a)
+      d,4 r8
+      r h' g
+      e4 r8
+      e4 r8 %120
+      a,4 d8
+      e d cis
+    }
+    \alternative { { d4 r8 } { d4 r8\fermata } } \bar "|." %124 finis
+  }
+}
+
 % \time 3/4 \tempoSymphoniaB \newSpacingSection
 % \time 3/8 \tempoSymphoniaC \newSpacingSection
 % \repeat volta 2 {
@@ -1201,3 +1336,11 @@ SonataQuartaViolinoII = {
 
 % }
 % \alternative { {  } {  } } \bar "|."
+
+SonataQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/4 \tempoSonataQuinta
+    
+  }
+}

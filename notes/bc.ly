@@ -2168,3 +2168,277 @@ SonataQuartaBassFigures = \figuremode {
   <_+>8 <6> <6 4>4 <5 _+> %170
   r2. %171 finis
 }
+
+SymphoniaQuintaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key d \major \time 2/4 \tempoSymphoniaQuinta
+    d8\fE d d d
+    d d d d
+    a a a a
+    d d d d
+    a\p a a a %5
+    d d d d\f
+    cis a' h, gis'
+    a, a' fis d\p
+    cis a' h, gis'
+    a, a' e\f cis %10
+    a a' e cis
+    a a' e cis
+    a a' e e,
+    a a' a a
+    g! g g g %15
+    fis fis fis fis
+    e e e e
+    d d d d
+    c c c c
+    h h h h %20
+    a a a a
+    g g' g g
+    a a a a
+    a a a a
+    g g g g %25
+    g g g g
+    fis4 cis
+    d e
+    fis g
+    a a, %30
+    d8 g a a,
+    d g\p a a,
+    d g\f a a,
+    d d' cis h
+    a a a a %35
+    a a a a
+    e e e e
+    a, a' a a
+    e\p e e e
+    a, a' a\f g! %40
+    fis h h a
+    g e r g
+    a, a' a g
+    fis d r fis
+    g, g' g fis %45
+    e cis r cis
+    fis, fis' fis e
+    d h' h h
+    ais ais ais ais
+    h h, d e %50
+    fis fis, ais fis
+    h h' fis d
+    h h' fis d
+    h h' fis fis,
+    h h' gis e %55
+    a, a' e cis
+    a a' e cis
+    a a' e e,
+    a a' fis d
+    g g g g %60
+    fis fis fis fis
+    e4 r8 e
+    d e fis d
+    g4 r8 gis
+    a4 r8 cis, %65
+    d4 g,
+    a8 a'16 h a g fis e
+    d8 d d d
+    d d d d
+    a a a a %70
+    d d d d
+    a\p a a a
+    d d' a\f fis
+    g4 r8 g
+    a a, a' g %75
+    fis4 cis
+    d e
+    fis g
+    a a,
+    d8 g a a, %80
+    d g\p a a,
+    d g\f a a, \noBreak
+    d4 r\fermata \bar "||"
+    \time 3/4 \tempoSymphoniaQuintaB \newSpacingSection
+      h'2\fE h4 \noBreak
+    ais2 r4 %85
+    ais2 ais4
+    h, h' a
+    g2 g4
+    a cis, a
+    d d' d, %90
+    g2 r4
+    cis, cis' cis,
+    fis2 r4
+    h, h' a!
+    g2. %95
+    fis
+    eis \noBreak
+    fis\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaQuintaC \newSpacingSection
+    \repeat volta 2 {
+      d8\fE fis d \noBreak
+      a'4 r8 %100
+      a, cis a
+      d d' a
+      d,4 r8
+      R4.
+      d4 g8 %105
+    }
+    \alternative { { a16 h a g fis e } { a8 e cis } }
+    \repeat volta 2 {
+      <a' a,>4 r8
+      a4 r8
+      a4 r8 %110
+      a4 r8
+      a4 r8
+      gis4 r8
+      gis4 r8
+      a, a' g %115
+      fis!( e fis)
+      g( fis g)
+      e( d e)
+      cis4 r8
+      cis4 r8 %120
+      d d' d,
+      g4 a8
+    }
+    \alternative { { d,16 cis d e fis g } { d,4 r8\fermata } } \bar "|." %124 finis
+  }
+}
+
+SymphoniaQuintaBassFigures = \figuremode {
+  r2
+  <6 4>8 <5 3>4.
+  <7>2
+  r
+  <7> %5
+  r
+  \bo <[6]>4. <6>8
+  r4 q
+  q4. \bc <[6]>8
+  r2 %10
+  r
+  r
+  r4 <6 4>8 <5 _+>
+  r2
+  <4 2+> %15
+  <5 _+>
+  <6 4+>
+  <6>
+  <4 2+>
+  <5 _+> %20
+  <6 4+>
+  <6>
+  <5 _!>8 <6! \t>4.
+  <[6+] 4+ 2>2
+  <6> %25
+  <4+ 2>
+  \bo <[6]>4 \bc q
+  r <6\\>
+  <6>2
+  r %30
+  r8 <6> <6 4> <5 3>
+  r <6> <6 4> <5 3>
+  r <6> <6 4> <5 3>
+  r2
+  r %35
+  <6 4>8 <5 3>4.
+  <7 _+>2
+  r
+  q
+  r %40
+  <6\\>8 <_+>4 <\t>8
+  <[6]>2
+  r
+  <6>
+  r %45
+  q
+  <_+>
+  <6>
+  <[6]>
+  r %50
+  <_+>
+  r
+  r
+  r4 <6 4>8 <5 _+>
+  r4 \bo <[6]>8 \bc <[\t]> %55
+  r2
+  r
+  r4 <6 4>8 <5 _+>
+  r2
+  r %60
+  <[6]>
+  <6>4. <\t>8
+  r2
+  r4. \bo <[6]>8
+  r4. \bc q8 %65
+  r4 <6>8 <5>
+  r2
+  r
+  <6 4>8 <5 3>4.
+  <7>2 %70
+  r
+  q
+  r
+  r4. <6>8
+  r2 %75
+  \bo <[6]>4 \bc q
+  r <6>
+  q2
+  r
+  r8 <6> <6 4> <5 3> %80
+  r <6> <6 4> <5 3>
+  r <6> <6 4> <5 3>
+  r2
+  r2 <4+ 3>4
+  <6>2. %85
+  <7 5!>2 <6 \t>4
+  r2 <6>4
+  <7> <6> <5>
+  r2.
+  r %90
+  <7>
+  <7 [5+]>
+  <7 _+>
+  <9>4 <8> <6 [_!]>
+  <7 3> <6 4+> <\t 3> %95
+  <7 _+> <6 4> <5 _+>
+  <7 5 [_+]>2.
+  <_+>
+  r4.
+  r %100
+  <[7]>
+  r
+  r
+  r
+  r4 <[7]>8 %105
+  r4.
+  r
+  r
+  <7+ 4 2>
+  <7! 3> %110
+  <6 4>
+  <6! 4>
+  <6>
+  <5>
+  r %115
+  <[6]>
+  r
+  <5>
+  <6>
+  <5> %120
+  <_+>8 <_!>4
+  <6 5> <5 _+>8
+  \bo <[_+]>4.
+  \bc q %124 finis
+}
+
+SonataQuintaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key d \dorian \time 3/4 \tempoSonataQuinta
+    
+  }
+}
+
+SonataQuintaBassFigures = \figuremode {
+
+}
