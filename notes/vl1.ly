@@ -1311,6 +1311,159 @@ SonataQuintaViolinoI = {
   \relative c' {
     \clef treble
     \key d \dorian \time 3/4 \tempoSonataQuinta
-    
+    d'4\fE f cis
+    d \appoggiatura { c16[ b] } a4 b
+    cis, d8( e) f( gis)
+    a4 h! cis8.(\trill h32 cis)
+    d4 e \appoggiatura { d16[ c] } h4 %5
+    c e a,8( d)
+    c( h) a( gis) a4
+    gis4. a8 h cis
+    d4 c8 a c dis
+    e4 d8( cis) d( e) %10
+    a,4 d,8( e) e8.(\trill d32 e)
+    f4 f8( g) g8.(\trill f32 g)
+    a4 g8 fis g4~
+    g8 f16 e f8 g a h!
+    cis d e f g a %15
+    b4 r8 b a g
+    f4 r8 f e d
+    cis e g( f) f( e)
+    r e,\p g( f) f( e)
+    r e'\pp f2\trill \noBreak %20
+    e2.\fermata \bar "||"
+    \time 4/4 \tempoSonataQuintaB \newSpacingSection
+      d4.\fE d16 e f8 f r4 \noBreak
+    e4. e16 f g8 g r4
+    f4. f16 g a8 a r a
+    b16 a g8 c, g' a16 g f8 r f %25
+    g16 f e8 a, e' f cis d16 a' g f
+    e8 a, a'4 r8 a, a' a
+    a4 gis r8 h, h' h
+    h4 a r8 c c c
+    d, h' h h c, a' a a %30
+    h, gis' gis gis a,16 c h d c e d f
+    e8 d16 c h8 a gis16 e' d c h d c h
+    c a' g! f e g f e f d' c h a c h a
+    h8 a16 g c4. h16 a g8 f
+    e16 g f g c, g' a h c8 g16 f e f e f %35
+    g8 g,~ g16 a h g a g f e f g a h
+    c h c d e f g a h8 c c, e
+    r a, f'16 e d8 r g, e'16 d c8
+    r f, d'16 c h8 r e, c'16 h a8
+    r e h' e e,4 r8 a' %40
+    g!4~ g16 g a g f4~ f16 f g f
+    e4. e8 a, d4 es16 d
+    c4. d16 c b4. c16 d
+    c8 b a f' g,2\trill
+    r8 f f' f f4 e %45
+    r8 g, g' g g4 f
+    e2\trill d4 r
+    r8 a a' a a4 g
+    r8 f, f' f f4 es
+    r8 es d c h! g c d16 es %50
+    f4. es16 d es8 f g4~
+    g8 f f es d4 f~
+    f8 es es g c, d16 es f8 g
+    d4 c\trill b r
+    c4. c16 d es8 es r4 %55
+    d4. d16 e f8 f r4
+    r8 a a a b, g' g g
+    a,4 f'4. e16 d e4~
+    e8 d16 cis d4. cis16 h! cis4
+    d16 a h cis d f e g f a g b a8 g16 f %60
+    e a g f e g f e f d' c! b a c b a
+    b g f e d f e d e c' b a g b a g
+    a c, d e f8 f, r f f' f
+    f4 e r8 g, g' g
+    g4 f r8 a a a %65
+    b, g' g g a, f' f f
+    g, e' e e f,16 a g b a c b d
+    c4. b16 a g b a c b d c e
+    d f e g f4. e16 d e4\trill
+    f8 c f f, g c16 d e f g a %70
+    d,8 d g g, a d16 e f g a b
+    e,8 a, a'4. h!16 cis d4~
+    d8 c16 b c2 b4~
+    b a4. b16 a g4~
+    g8 a16 g f8 g f4 e\trill %75
+    d a4. b16 a g4~
+    g8 a16 g f8 g f4 e\trill \noBreak
+    d r r2\fermata \bar "||"
+    \time 3/4 \tempoSonataQuintaC \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      a'4\fE a r8 r16 d \noBreak
+    g,4 g r %80
+    g g r8 r16 a
+    fis4 fis r
+    g g r8 r16 d'
+    gis,4 gis r8 r16 h
+    f4 f f\noBreak %85
+    e2-\critnote r4\fermata \bar "||"
+    \time 3/8 \tempoSonataQuintaD \newSpacingSection
+      d'8.\fE e16 f g \noBreak
+    e8 a,16 h c! a
+    d8 g,16 a b g
+    cis a h cis d8 %90
+    d,16 e f8 e
+    d16 e f g a h!
+    c!8 a a'
+    gis g g,
+    fis' f f, %95
+    e' d c
+    f a, gis
+    a16 a' g! f e g
+    f4 b8
+    r e, a %100
+    r d, g
+    r e d~
+    d16 e d8 cis
+    d f16 g a b
+    e,8 a a, %105
+    d8. e16 f g
+    c,8 f f,
+    b8. c16 d e
+    a,8. b16 c d
+    g,8. a16 b c %110
+    a8 f'16 g a b
+    g8 c4~
+    c8 b16 a b g
+    a8 a, r
+    R4.*4 %118
+    r8 d d'
+    cis c c, %120
+    h' b b,
+    a16 c f e d c
+    d f g f e d
+    e g a g f e
+    f8 f, b %125
+    r g c
+    r a d
+    r g, g'
+    fis f f,
+    e a a' %130
+    gis g g,
+    fis' f f,
+    e'16 d e g f e
+    d cis d f e d
+    cis4 r8 %135
+    R4.
+    r8 a a'
+    gis g g,
+    fis' f f,
+    e'16 f g b a g %140
+    f cis d f e d
+    cis d e d cis e
+    d e f a g f
+    e4 a8
+    d,16 f g f e d %145
+    e g a g f e
+    f g f e d c
+    b8 g g'16 f
+    e f e d cis h
+    a b a g f8 %150
+    b f e
+    d d' cis
+    d4^\critnote r8\fermata \bar "|." %153 finis
   }
 }

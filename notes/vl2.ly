@@ -1326,6 +1326,162 @@ SymphoniaQuintaViolinoII = {
   }
 }
 
+SonataQuintaViolinoII = {
+  \relative c' {
+    \clef treble
+    \key d \dorian \time 3/4 \tempoSonataQuinta
+    R2.*4
+    a'4\fE c! gis %5
+    a \appoggiatura { g16[ f] } e4 f
+    gis, a8( h) c( dis)
+    e4 h8 cis d e
+    f gis a4 a'
+    gis8 a b4 a8 g %10
+    f g a4 a,
+    a2 d,4
+    d2~ d8 b
+    a4 r8 d e fis16 gis
+    a8 h cis d e d16 cis %15
+    d8 f g f e4~
+    e8 a, d c h!16 a h8
+    e, cis' e( d) d( cis)
+    r cis,\p e( d) d( cis)
+    r cis'\pp d2\trillE \noBreak %20
+    cis2.\fermata \bar "||"
+    \time 4/4 \tempoSonataQuintaB \newSpacingSection
+      d4\fE r r8 d, d' d \noBreak
+    d4 cis r8 e, e' e
+    e4 d r8 f f f
+    g, e' e e f, d' d d %25
+    e, cis' cis cis d,16 b' a g f f' e d
+    c8 e16 d c a c d e c d e a,8 c
+    d16 h c d h,4 h'16 gis a h e,8 d'
+    e16 c d e c,4 r8 g' e'16 d c8
+    r f, d'16 c h8 r e, c'16 h a8 %30
+    r d, h'16 a gis8 r e' e, a
+    a,4 f'16 e f8 h,4 r16 h'' a gis
+    a8 a, r16 e' d cis d8 d, r16 a'' g f
+    g8 f e d16 c g' a g f e8 d
+    c4. c16 d e8 e r4 %35
+    d4. d16 e f8 f r4
+    e4. e16 f g8 g r g
+    a16 g f8 c f g16 f e8 r e
+    f16 e d8 g, d' e16 d c8 r c
+    d16 c h8 e, h' cis16 h a8 d4~ %40
+    d16 d e d c4~ c16 c d c b4~
+    b8 a16 b a8 g fis4 g~
+    g8 fis16 e fis8 a d,4 g~
+    g f2 e4\trill
+    f r r8 c c' c %45
+    c4 b r8 d, d' d
+    d4 c b4. c16 b
+    a4. b16 c d4~ d16 d e d
+    c4~ c16 c d c b4~ b16 b c b
+    a4. a8 d, es16 f g8 g %50
+    a h!16 c d4 g,4. a16 b
+    c8 a16 b c4. b8 b a
+    g c c b a b16 c b4~
+    b a b8 b, b' b
+    b4 a r8 g c c %55
+    c4 b r8 a d d
+    d4 cis r2
+    r8 a' a a b, g' g g
+    a, f' f f g, e' e e
+    f,4 r8 a4 d,8 d'16 f e d %60
+    cis4 r16 e d cis d8 d, r16 a'' g fis
+    g8 g, r16 d' c h c8 c, r16 g'' f e
+    f a, b16 c f, g a b c d c b a b c d
+    b c b a g a b c d e d c b c d e
+    c d c b a b c d e8 e, c'16 b a8 %65
+    r d, b'16 a g8 r c, a'16 g f8
+    r b, g'16 f e8 r c' c, f~
+    f16 e d8 c16 e d f e8 c f a16 g
+    f d' c b a8 b g4. g8
+    a4. a16 h c8 c r4 %70
+    h4. h16 cis d8 d r4
+    cis4. d16 e f4. g16 f
+    e4. fis16 g fis8 g16 a d,8 e16 f
+    e8 f16 g c,8 d16 e d4. e16 d
+    cis4 d8 e d4 cis %75
+    d r d,4. e16 d
+    cis4 d8 e d4 cis \noBreak
+    d r r2\fermata \bar "||"
+    \time 3/4 \tempoSonataQuintaC \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      f4\fE f r8 r16 f \noBreak
+    e4 e r %80
+    e e r8 r16 e
+    es4 es r
+    d d r8 r16 d
+    d4 d r8 r16 d
+    d4 d d \noBreak %85
+    cis2 r4\fermata \bar "||"
+    \time 3/8 \tempoSonataQuintaD \newSpacingSection
+      R4.*6 %92
+    a'8.\fE h16 c d
+    h8 e,16 f g e
+    a8 d,16 e f d %95
+    gis e fis gis a8
+    a,16 h c8 h
+    a h cis
+    r d d'
+    cis c c, %100
+    h' b b,
+    a' g f
+    b f e
+    d4 r8
+    a'8. b16 c d %105
+    g,8 d16 c d e
+    f8. g16 a b
+    d,8 g b
+    c, a' r
+    b, g' r %110
+    c, a' r
+    c8. d16 e f
+    d8 g4~
+    g8 f16 e f d
+    e8. f16 g a %115
+    d,8 g4
+    fis8 f f,
+    e' a, a'~
+    a g16 f g8
+    a r r %120
+    R4.
+    r8 a, a,
+    b h h'
+    c, cis cis'
+    d16 d, b' a g f %125
+    g b c b a g
+    a c d c b a
+    b a b c d es
+    a,8 d, d'
+    cis c c, %130
+    h h'16 a h cis
+    d8 a16 g a h
+    c!8 g a
+    b f g
+    a a a' %135
+    gis g g,
+    fis' f f,
+    e e'16 d e8
+    d, d'16 cis d8
+    cis16 d e d cis e %140
+    d e f a g f
+    e f g b a g
+    f cis d f e d
+    cis d cis h! a8
+    r d g, %145
+    r e' a,~
+    a16 b a g f a
+    d,8 b'16 a g8
+    a8. b16 a g
+    f g f e d8 %150
+    d4 cis8
+    d a' e
+    d4 r8\fermata \bar "|." %153 finis
+  }
+}
+
 % \time 3/4 \tempoSymphoniaB \newSpacingSection
 % \time 3/8 \tempoSymphoniaC \newSpacingSection
 % \repeat volta 2 {
@@ -1336,11 +1492,3 @@ SymphoniaQuintaViolinoII = {
 
 % }
 % \alternative { {  } {  } } \bar "|."
-
-SonataQuintaViolinoII = {
-  \relative c' {
-    \clef treble
-    \key d \dorian \time 3/4 \tempoSonataQuinta
-    
-  }
-}
