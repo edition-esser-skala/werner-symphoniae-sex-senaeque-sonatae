@@ -2729,3 +2729,181 @@ SonataQuintaBassFigures = \figuremode {
   r <[6]> <_+>
   r4. %153 finis
 }
+
+SymphoniaSextaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \twofourtime \key g \major \time 2/4 \tempoSymphoniaSexta
+    g'8\fE g, g' a
+    h c h a
+    g h16\pE a g8 a
+    h c h a
+    g h16 a h8\fE g %5
+    fis g a a,
+    d fis cis a
+    d fis cis a
+    d fis cis a
+    d g a a, %10
+    d g a a,
+    d c! h h
+    c c c c
+    d d d d
+    e e e e %15
+    fis fis fis fis
+    g g c,4
+    d8 d16 e fis8 d
+    g h fis d
+    g h fis d %20
+    g h fis d
+    g c, d d,
+    g c d d,
+    g h'16 a g8 fis
+    e g dis h %25
+    e e'16 d! cis8 a
+    d, fis cis a
+    d d'16 c! h8 g
+    c, e h g
+    c e h g %30
+    c e h g
+    c c cis cis
+    d d dis dis
+    e e e e
+    fis fis fis fis %35
+    g g, c4
+    d8 e fis d
+    g g, c c,
+    d d'16 e fis8 d
+    g h fis d %40
+    g h fis d
+    g h fis d
+    g c, d d,
+    g' c, d d, \noBreak
+    g4 r\fermata \bar "||" %45
+    \time 4/4 \tempoSymphoniaSextaB \newSpacingSection
+      e'8\fE e e e fis g g g \noBreak
+    a a h h e, e e e
+    d! d d d c c c c
+    cis cis cis cis dis dis dis dis
+    e e e e e e fis fis %50
+    dis dis e e c c c c \noBreak
+    h2 r\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaSextaC \newSpacingSection
+    \repeat volta 2 {
+      g'8\fE g g \noBreak
+      g,4 r8
+      g' d' d, %55
+      g d h
+      g4 r8
+      a' a, h
+      cis4 r8
+      d' d, e %60
+      fis4 r8
+      g e h'
+      g a a,
+    }
+    \alternative { { d d'16 c! h a } { d,8 fis a } } %65
+    \repeat volta 2 {
+      d4 c!8
+      h4 r8
+      dis,4 r8
+      e e e
+      e'4 r8 %70
+      a,4 r8
+      cis,4 r8
+      d d e
+      fis g4
+      a,8 a' g %75
+      fis4 r8
+      g, g'8 e
+      cis4 r8
+      d c h
+      c d d, %80
+    }
+    \alternative { { g g'16 a h c } { g,4 r8\fermata } } \bar "|." %82 finis
+  }
+}
+
+SymphoniaSextaBassFigures = \figuremode {
+  r4. \bo <[6]>8
+  \bc q4. <6>8
+  r4. \bo <[6]>8
+  \bc q4. <6>8
+  r2 %5
+  <6>8 q <_+>4
+  r4 \bo <[6]>8 <_+>
+  r4 <6>8 <_+>
+  r4 <6>8 \bc <[_+]>
+  r4 <6 4>8 <5 _+> %10
+  r4 <6 4>8 <5 _+>
+  r4 \bo <[6]>
+  \bc <[5]> <6>
+  <5> <6>
+  <5> <6> %15
+  <5> <6>
+  r <6>8 <5>
+  r2
+  r4 <[6]>
+  r <6> %20
+  r \bc <[6]>
+  r <6 4>8 <5 3>
+  r4 <6 4>8 <5 3>
+  r4 <6>8 <6\\>
+  r4 \bo <[6]>8 <_+> %25
+  r4 <6>8 <_+>
+  r4 <6>8 <_+>
+  r4 <6>
+  r q
+  r q %30
+  r q
+  \bc <[5]> <6>
+  <5> <6>
+  <5> <6>
+  <5> <6> %35
+  r <6>8 <5>
+  r2
+  r4 <6>8 <5>
+  r2
+  r4 <[6]> %40
+  r <6>
+  r \bc <[6]>
+  r <6 4>8 <5 3>
+  r4 <6 4>8 <5 3>
+  r2 %45
+  r <6\\>8 <6>4.
+  r4 <6 4>8 <5 _+> r2
+  <4+ _!> <6>
+  <6\\> <6>
+  r <6 5>4 <5 3> %50
+  <6 5>2 <7>4 <6\\>
+  <_+>1
+  r4.
+  r
+  r8 <6 4> <5 3> %55
+  r4.
+  r
+  <[4]>8 <_+> <6>
+  q4.
+  r4 <6\\>8 %60
+  <6>4.
+  r
+  r8 <6 4> <5 _+>
+  r4.
+  r %65
+  r
+  <_+>
+  <[6]>
+  r
+  r %70
+  <_+>
+  <[6]>
+  r
+  <[6]>
+  <_+> %75
+  <5!>
+  r
+  <7- 5>
+  r4 <[_!]>8
+  r <6 4> <5 3> %80
+  r4.
+  r %82 finis
+}

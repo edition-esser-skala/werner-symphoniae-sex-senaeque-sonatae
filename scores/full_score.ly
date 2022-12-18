@@ -290,8 +290,39 @@
   %     \midi { \tempo 4 = 100 }
   %   }
   % }
+  % \bookpart {
+  %   \section "5·b" "Sonata quinta"
+  %   \addTocEntry
+  %   \score {
+  %     <<
+  %       \new StaffGroup <<
+  %         \new GrandStaff <<
+  %           \set GrandStaff.instrumentName = "vl"
+  %           \new Staff {
+  %             \set Staff.instrumentName = "1"
+  %             \SonataQuintaViolinoI
+  %           }
+  %           \new Staff {
+  %             \set Staff.instrumentName = "2"
+  %             \SonataQuintaViolinoII
+  %           }
+  %         >>
+  %       >>
+  %       \new StaffGroup <<
+  %         \new Staff {
+  %           \set Staff.instrumentName = "bc"
+  %           % \transpose c c,
+  %           \SonataQuintaBassoContinuo
+  %         }
+  %       >>
+  %       \new FiguredBass { \SonataQuintaBassFigures }
+  %     >>
+  %     \layout { }
+  %     \midi { \tempo 4 = 100 }
+  %   }
+  % }
   \bookpart {
-    \section "5·b" "Sonata quinta"
+    \section "6·a" "Symphonia sexta"
     \addTocEntry
     \score {
       <<
@@ -300,11 +331,11 @@
             \set GrandStaff.instrumentName = "vl"
             \new Staff {
               \set Staff.instrumentName = "1"
-              \SonataQuintaViolinoI
+              \SymphoniaSextaViolinoI
             }
             \new Staff {
               \set Staff.instrumentName = "2"
-              \SonataQuintaViolinoII
+              \SymphoniaSextaViolinoII
             }
           >>
         >>
@@ -312,10 +343,10 @@
           \new Staff {
             \set Staff.instrumentName = "bc"
             % \transpose c c,
-            \SonataQuintaBassoContinuo
+            \SymphoniaSextaBassoContinuo
           }
         >>
-        \new FiguredBass { \SonataQuintaBassFigures }
+        \new FiguredBass { \SymphoniaSextaBassFigures }
       >>
       \layout { }
       \midi { \tempo 4 = 100 }

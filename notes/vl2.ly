@@ -1482,13 +1482,95 @@ SonataQuintaViolinoII = {
   }
 }
 
-% \time 3/4 \tempoSymphoniaB \newSpacingSection
-% \time 3/8 \tempoSymphoniaC \newSpacingSection
-% \repeat volta 2 {
-
-% }
-% \alternative { {  } {  } }
-% \repeat volta 2 {
-
-% }
-% \alternative { {  } {  } } \bar "|."
+SymphoniaSextaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoSymphoniaSexta
+    h'8\fE g'4 fis16 e
+    d8 e d fis,
+    g d'16(\p c) c( h) h( a)
+    g8 e' d fis,
+    g d g\f h %5
+    d h e, cis'
+    \tuplet 3/2 8 { d16-! fis-! e-! d[-! cis-! h]-! a-! e'-! d-! cis[-! h-! a]-! }
+    \tuplet 3/2 8 { fis fis' e d[ cis h] a e' d cis[ h a] }
+    \tuplet 3/2 8 { fis fis' e d[ cis h] a e' d cis[ h a] }
+    fis8 d16( d') d8 cis %10
+    d d,4 cis8
+    \tuplet 3/2 8 { d16[ a' g] fis e d } d'8 g,~
+    \tuplet 3/2 8 { g16[ fis e] e d c } e'8 a,~
+    \tuplet 3/2 8 { a16[ g fis] fis e d } fis'8 h,~
+    \tuplet 3/2 8 { h16[ a g] g fis e } g'8 c,~ %15
+    \tuplet 3/2 8 { c16[ h a] a g fis } a'8 d,~
+    \tuplet 3/2 8 { d16[ c h] h a g } e'8. c16
+    a d fis, g a8 fis
+    \tuplet 3/2 8 { h16 h' a g[ fis e] d a' g fis[ e d] }
+    \tuplet 3/2 8 { h h' a g[ fis e] d a' g fis[ e d] } %20
+    \tuplet 3/2 8 { h h' a g[ fis e] d a' g fis[ e d] }
+    h8 g'4 fis8
+    g g,4 fis8
+    g16 d g a h e, dis fis
+    g8. e'16 fis8 dis %25
+    h16( e) \once \tieDashed g8~ \tuplet 3/2 8 { g16[ a h] a h g }
+    fis8 d16 fis e8 cis
+    a16( d) fis8~ \tuplet 3/2 8 { fis16[ g a] g a f }
+    e8 c16 e d8 h
+    g c16 e d8 h %30
+    g c16 e d8 h
+    \tuplet 3/2 8 { g16[ c, d] e fis! g } a4~
+    \tuplet 3/2 8 { a16[ d, e] fis g a } h4~
+    \tuplet 3/2 8 { h16[ e, fis] g a h } c4~
+    \tuplet 3/2 8 { c16[ fis, g] a h c } d4~ %35
+    \tuplet 3/2 8 { d16[ g, a] h c d } e8. c16
+    \tuplet 3/2 8 { a e fis } g8 a8. fis16
+    \tuplet 3/2 8 { d g, a h[ c d] } e8. c16
+    a a' fis g a d, fis a
+    \tuplet 3/2 8 { h[ h' a] g fis e d[ a' g] fis e d } %40
+    \tuplet 3/2 8 { h[ h' a] g fis e d[ a' g] fis e d }
+    \tuplet 3/2 8 { h[ h' a] g fis e d[ a' g] fis e d }
+    h8 g'4 fis8
+    g g,4 fis8 \noBreak
+    g4 r\fermata \bar "||" %45
+    \time 4/4 \tempoSymphoniaSextaB \newSpacingSection
+      g4~\fE g16 e g8 a h~ h16 e, h'8 \noBreak
+    c8. c16 h( a) g( fis) g4~ g16 h h( e,)
+    f2 e8( a) c( e)
+    e,4~ e16 dis e8 fis8 h4 fis8
+    g e'4 h8~ h a16 g a4~ %50
+    a8 g16 fis g8 h e,4. fis16 e \noBreak
+    dis2 r\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaSextaC \newSpacingSection
+    \repeat volta 2 {
+      h'4.~\fE \noBreak
+      h16 e d8 c
+      h16( a') g8 fis %55
+      g h, d~
+      d h' r
+      r e, g,
+      a e' r
+      r a cis, %60
+      d a' r
+      d, e d
+      d4 cis8
+    }
+    \alternative { { d4 r8 } { d4 r8 } } %65
+    \repeat volta 2 {
+      fis,16( d') d,8 e
+      fis4 r8
+      h dis,16 e fis8
+      h, h'16 a g a
+      h4 r8 %70
+      e4 r8
+      a, cis, e
+      a, a'16 g fis g
+      a8 d,( h')
+      e,16 d e fis g e %75
+      a8 fis16 g a8
+      d,4 g8~
+      g e16 fis g8
+      fis g16 a h8
+      g4 fis8 %80
+    }
+    \alternative { { g4 r8 } { g4 r8\fermata } } \bar "|." %82 finis
+  }
+}

@@ -1467,3 +1467,96 @@ SonataQuintaViolinoI = {
     d4^\critnote r8\fermata \bar "|." %153 finis
   }
 }
+
+SymphoniaSextaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twofourtime \key g \major \time 2/4 \tempoSymphoniaSexta
+    d'16(\fE g) h4 c8
+    d g,4 \tuplet 3/2 8 { a16 h c }
+    h8 g, r c\p
+    d g,4 \tuplet 3/2 8 { a16 h c }
+    h8 g, r \tuplet 3/2 8 { g''16\f a h } %5
+    \tuplet 3/2 8 { a-! g-! fis-! e[-! fis-! d]-! cis-! h-! a-! g[-! fis-! e]-! }
+    fis8. a'16 a8.\trill a16
+    a8.\trill a,16 a8.\trill a16
+    a8.\trill a,16 a8.\trillE a16
+    \kneeBeam \sbOn a16. a''32 \tuplet 3/2 8 { h16 a g fis e d } e8\trill %10
+    d,16. a'32 \tuplet 3/2 8 { h16 a g fis e d } e8\trill \sbOff
+    d8. g16 \tuplet 3/2 8 { g[ a h] h c! d }
+    \appoggiatura d8 e8. a,16 \tuplet 3/2 8 { a h c c[ d e] }
+    \appoggiatura e8 fis8. h,16 \tuplet 3/2 8 { h c d d[ e fis] }
+    \appoggiatura fis8 g8. c,16 \tuplet 3/2 8 { c d e e[ fis g] } %15
+    \appoggiatura g8 a8. d,16 \tuplet 3/2 8 { d e fis fis[ g a] }
+    \appoggiatura a8 h8. h16 \tuplet 3/2 8 { a16 h a g[ fis e] }
+    fis8 d r d'
+    d8.\trill d16 d8.\trill d16
+    d8.\trill d,16 d8.\trill d16 %20
+    d8.\trill d,16 d8.\trill d16
+    \sbOn d16. d'32 \tuplet 3/2 8 { e16 d c h a g } a8\trill
+    g,16. d'32 \tuplet 3/2 8 { e16 d c h a g } a8\trill \sbOff
+    g4 r
+    e''16( g) h8~ \tuplet 3/2 8 { h16 c h a[ g fis] } %25
+    g8 e, r4
+    d'16 fis a8~ \tuplet 3/2 8 { a16 h a g[ fis e] }
+    fis8 d, r4
+    c'!16 e g8~ \tuplet 3/2 8 { g16 a g f e d }
+    \tuplet 3/2 8 { e c e } g8~ \tuplet 3/2 8 { g16 a g f[ e d] } %30
+    \tuplet 3/2 8 { e c e } g8~ \tuplet 3/2 8 { g16 a g f[ e d] }
+    e4~ \tuplet 3/2 8 { e16 a, h cis[ d e] }
+    fis!4~ \tuplet 3/2 8 { fis16 h, cis dis[ e fis] }
+    g4~ \tuplet 3/2 8 { g16 c, d e[ fis g] }
+    a4~ \tuplet 3/2 8 { a16 d, e fis[ g a] } %35
+    h8. h16 \tuplet 3/2 8 { a h a g[ fis e] }
+    fis8. e16 \tuplet 3/2 8 { d[ e d] c h a }
+    h8. h16 \tuplet 3/2 8 { a[ h a] g fis e }
+    fis8 d r d''
+    d8.\trill d16 d8.\trill d16 %40
+    d8.\trill d,16 d8.\trill d16
+    d8.\trill d,16 d8.\trill d16
+    \sbOn d16. d'32 \tuplet 3/2 8 { e16 d c h a g } a8\trill
+    g,16. d'32 \tuplet 3/2 8 { e16 d c h a g } a8\trill \sbOff \noBreak
+    g4 r\fermata \bar "||" %45
+    \time 4/4 \tempoSymphoniaSextaB \newSpacingSection
+      h'16(\fE e) e4. dis16( e) e4. \noBreak
+    e16( c') h( a) g( fis) e( dis) dis( e) e,4.
+    gis4~ gis16( a) h( a) a8~ a16 e' e( d) c( h)
+    ais4~ ais16( h) cis( h) h8~ h16 fis' fis( e) dis( cis)
+    h8~ h16 g' g( fis) e( d) c4. h16 a %50
+    h2. ais4 \noBreak
+    h2 r\fermata \bar "||"
+    \time 3/8 \tempoSymphoniaSextaC \newSpacingSection
+    \repeat volta 2 {
+      d4.~\fE \noBreak
+      d16 g fis8 e
+      d16( c') h8 a %55
+      g4 r8
+      h( g e)
+      \appoggiatura d cis4.
+      e8( cis a)
+      \appoggiatura g fis4. %60
+      a'8( fis d)
+      h g' fis
+      h fis e
+    }
+    \alternative { { d4 r8 } { d4 r8 } } %65
+    \repeat volta 2 {
+      a'( fis e)
+      dis( c! h)
+      fis'( h, a)
+      a\trill g r
+      g'( e d!) %70
+      cis( b a)
+      e' a,( g)
+      g\trill fis r
+      d'( h' d,)
+      cis4. %75
+      c8( a' c,)
+      h4.
+      b8( g' b,)
+      a h16 c d8
+      e h a %80
+    }
+    \alternative { { g4 r8 } { g4 r8\fermata } } \bar "|." %82 finis
+  }
+}
