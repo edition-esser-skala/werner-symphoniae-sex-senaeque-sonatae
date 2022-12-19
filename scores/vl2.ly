@@ -1,7 +1,7 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vl 2")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,21 +12,18 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Basso" "continuo" }
-          \SymphoniaPrimaBassoContinuo
+          \set Staff.instrumentName = "Violino II"
+          \SymphoniaPrimaViolinoII
         }
-        \new FiguredBass { \SymphoniaPrimaBassFigures }
       >>
     }
   }
   \bookpart {
     \section "1·b" "Sonata prima"
     \addTocEntry
-    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \SonataPrimaBassoContinuo }
-        \new FiguredBass { \SonataPrimaBassFigures }
+        \new Staff { \SonataPrimaViolinoII }
       >>
     }
   }
@@ -35,8 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SymphoniaSecundaBassoContinuo }
-        \new FiguredBass { \SymphoniaSecundaBassFigures }
+        \new Staff { \SymphoniaSecundaViolinoII }
       >>
     }
   }
@@ -45,8 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SonataSecundaBassoContinuo }
-        \new FiguredBass { \SonataSecundaBassFigures }
+        \new Staff { \SonataSecundaViolinoII }
       >>
     }
   }
@@ -55,19 +50,16 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SymphoniaTertiaBassoContinuo }
-        \new FiguredBass { \SymphoniaTertiaBassFigures }
+        \new Staff { \SymphoniaTertiaViolinoII }
       >>
     }
   }
   \bookpart {
     \section "3·b" "Sonata tertia"
     \addTocEntry
-    \paper { page-count = #2 }
     \score {
       <<
-        \new Staff { \SonataTertiaBassoContinuo }
-        \new FiguredBass { \SonataTertiaBassFigures }
+        \new Staff { \SonataTertiaViolinoII }
       >>
     }
   }
@@ -76,8 +68,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SymphoniaQuartaBassoContinuo }
-        \new FiguredBass { \SymphoniaQuartaBassFigures }
+        \new Staff { \SymphoniaQuartaViolinoII }
       >>
     }
   }
@@ -86,8 +77,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SonataQuartaBassoContinuo }
-        \new FiguredBass { \SonataQuartaBassFigures }
+        \new Staff { \SonataQuartaViolinoII }
       >>
     }
   }
@@ -96,8 +86,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SymphoniaQuintaBassoContinuo }
-        \new FiguredBass { \SymphoniaQuintaBassFigures }
+        \new Staff { \SymphoniaQuintaViolinoII }
       >>
     }
   }
@@ -106,8 +95,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SonataQuintaBassoContinuo }
-        \new FiguredBass { \SonataQuintaBassFigures }
+        \new Staff { \SonataQuintaViolinoII }
       >>
     }
   }
@@ -116,8 +104,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SymphoniaSextaBassoContinuo }
-        \new FiguredBass { \SymphoniaSextaBassFigures }
+        \new Staff { \SymphoniaSextaViolinoII }
       >>
     }
   }
@@ -126,8 +113,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SonataSextaBassoContinuo }
-        \new FiguredBass { \SonataSextaBassFigures }
+        \new Staff { \SonataSextaViolinoII }
       >>
     }
   }
