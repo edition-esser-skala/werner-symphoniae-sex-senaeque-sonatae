@@ -4,7 +4,7 @@
 #(define option-init-toc #t)
 #(define option-print-all-bar-numbers #t)
 \include "ees.ly"
-% \include "articulate_ees.ly"
+\include "articulate_ees.ly"
 
 
 tempoSymphoniaPrima = \tempoMarkup "Spirituoso"
@@ -55,6 +55,11 @@ tempoSonataQuintaD = \tempoMarkup "Allegro"
 tempoSymphoniaSexta = \tempoMarkup "Allegro non troppo"
 tempoSymphoniaSextaB = \tempoMarkup "Larghetto"
 tempoSymphoniaSextaC = \tempoMarkup "Allegro assai"
+
+tempoSonataSexta = \tempoMarkup "Adagio"
+tempoSonataSextaB = \tempoMarkup "Vivace"
+tempoSonataSextaC = \tempoMarkup "Adagio"
+tempoSonataSextaD = \tempoMarkup "Allegro non troppo"
 
 
 \include "notes/vl1.ly"

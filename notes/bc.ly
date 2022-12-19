@@ -2907,3 +2907,230 @@ SymphoniaSextaBassFigures = \figuremode {
   r4.
   r %82 finis
 }
+
+SonataSextaBassoContinuo = {
+  \relative c {
+    \clef bass
+    \key c \dorian \time 3/4 \tempoSonataSexta
+      \once \override Staff.TimeSignature.style = #'single-digit
+    c4\fE es r8 r16 g
+    c,4 c r
+    r r r8 r16 es
+    es4 es, r
+    r r r8 r16 es'' %5
+    es8.[\trill d16 d8.\trill c16 c8.\trill b16]
+    b4 es, r8 r16 es
+    c'8 as b4 b,
+    e f d
+    h c a'! %10
+    fis g es!
+    cis d d,
+    g g' f!8 es
+    d4 c h
+    c2 as'4 %15
+    g f e
+    f2 g4
+    as2. \noBreak
+    g\fermata \bar "||"
+    \time 4/4 \tempoSonataSextaB \newSpacingSection
+      R1*9 %28
+    r8 c,\fE c c es d16 c h8 c
+    fis( g) r c,\p es d16 c h8 c %30
+    fis( g) r e\f f d es c
+    des c16 h  c8 f es d16 c d8 g
+    c, c' c c c b!16 as g8 a
+    b, b' b b b as16 g f8 g
+    as, as' as as as g16 f es8 f %35
+    g16 f g as b8 b, es4 r
+    R1
+    r8 g g g as g16 f e8 f
+    h( c) r f,\p as g16 f e8 f
+    h( c) r as\f b g as f %40
+    g e f d! es4 b
+    f' c g' d
+    es8 d16 c b8 c d b16 c d8 d,
+    g4 r r2
+    R1 %45
+    r8 c c c es d16 c h8 c
+    fis( g) r c,\p es d16 c h8 c
+    fis( g) r e\fE f4 g8 as
+    g f16 e f8 e\p f4 g8 as
+    g f16 e f8 d\f es c d c16 h %50
+    c8 a! b g as f g es'
+    h g' g g g2~-\tasto
+    g1~
+    g8. f16 es d c8 f b es, as
+    d, g c, as' es f g g, %55
+    c, c'16\p d es8 c f b es, as
+    d, g c, as' es f g g, \noBreak
+    c4 r r2\fermata \bar "||"
+    \time 3/4 \tempoSonataSextaC \newSpacingSection
+      \once \override Staff.TimeSignature.style = #'single-digit
+      c4\fE d2 \noBreak
+    es4 es' des %60
+    c c,2
+    f es!4
+    d2.
+    g2 f!4
+    es2 d4 %65
+    c2.
+    f2 g4
+    as2. \noBreak
+    g\fermata \bar "||"
+    \time 6/8 \tempoSonataSextaD \newSpacingSection
+      c,4\f c8~ c h as' \noBreak %70
+    g4 c,8~\p c h as'
+    g4 f8\f es es' d
+    c g as f g g,
+    c c' b!16 a! g4 g,8
+    fis4 es'8 d4 g,8\p %75
+    fis4 es'8 d4 r8
+    R2.*2
+    r8 c16\f d es8 d g c,~
+    c h es\p d g c,~ %80
+    c h as'\f g g, f'
+    es16 f g f es8 as b b,
+    es g16 f es8 b'4 c8
+    g4 as8 es4 f8
+    c4. b4 g'8 %85
+    f4 d8 c4 a!8
+    <g g'>4 e'8 d4 d8
+    es d c b d es
+    c d d, g4 r8
+    R2.*2 %91
+    r4 r8 r c16 d es8
+    d g f~ f e f~
+    f es16 d es8 d4 fis8
+    g4 g8 a4 a8 %95
+    b4 h8 c4 c,8
+    f4. g
+    c, d
+    g4 es8 c d d,
+    r g'16 a b8 a d g,~ %100
+    g fis b\p a d g,~
+    g fis r f\f es d
+    c4 c8~ c h as'
+    g4 c,8~\p c h as'
+    g g, f'~\f f e des' %105
+    c4 f,8~\p f e des'
+    c4 b8\fE as4 g8
+    f4 es!8 d!4 c8
+    g'2.~-\tasto
+    g~ %110
+    g
+    c,8 c16 d e8 f4 f8
+    g4 as8 f g g,
+    c4 r8 r f d
+    h4 c8 f g g, %115
+    c4 r8 r4 r8\fermata \bar "|." %116 finis
+  }
+}
+
+SonataSextaBassFigures = \figuremode {
+  r4 <6> r8. <_!>16
+  r2.
+  r
+  r
+  r %5
+  r8. <6>4 <6-> <7->16
+  <\t>2.
+  <5>4 <5 4> <\t 3>
+  <7- 5> <_-> <5->
+  <6 5> <[_-]> <5-> %10
+  <6 5> <[_-]> <5>
+  <6 5 [_!]> <5 4> <\t _+>
+  <_-> <_!> \bo <[\tllur]>8 \bc <[6]>
+  <6!>4 <6-> <6>
+  <_!>2 <6>4 %15
+  <_-> <6- _-> <6>
+  <9 _-> <8 \t> \bo <[6] _!>8 \bc <[5] \t>
+  <7>4 <6>2
+  <_!>2.
+  r1*9 %28
+  r2 \bo <[6]>4 \bc q
+  <6>8 <_!>4. \bo <[6]>4 \bc q %30
+  <6>8 <_!>4 <6>8 <_!> <6>4 <6->8
+  \bo <[5-]> <\tllur>16 \bc <[6]> r8 <_!> <6>4 <7>8 <_!>
+  r2 <5 2>4. \once \bassFigureExtendersOn q8
+  <6> <5>4 <[4! 2]>8 <5 2>4. \once \bassFigureExtendersOn q8
+  <6> <5->4 <4 2>8 <5 2> <\t \t>4 <_->8 %35
+  <[6]>4 <4>8 <3> <6> <5>4.
+  r1
+  r8 <6 4> <5 \t> <6! _-> <6>4 <[6]>8 <_->
+  <[6]> <_!>4 <_->8 <6>4 <[6]>8 <_->
+  <[6]> <_!>4 <6>4 q <6->8 %40
+  <_!> <6> <_!> <6->4. <4>8 <3>
+  <4> <_-> <4> <3> <4> <3> \bo <[5!] 4> \bc <[\t] _+>
+  <5>4 <6>8 <[6]> <_+> <6> <4> <_+>
+  <6-> <5>2..
+  r1 %45
+  r2 <6>4 \bo <[6]>
+  \bc q8 <_!>4. \bo <[6]>4 <6>
+  \bc <[6]>8 <_!>4 <[6]>8 <_->4 <6!>8 <6>
+  <_!> <5 _->16 <[6]> <_->8 <[6]> <_->4 <6!>8 <6>
+  <_!> <_->16 <[6]> <_->8 <6->4 <6->8 <[5!] _+> \bo <[\tllur]>16 \bc <[6]> %50
+  <_!>8 <6>4 <6-> <6 [_-]>8 <_!> \bo <[6]>
+  \bc q8 <_!>2..
+  r1
+  <_!>4 <6> <_->2
+  r8 <_!>4 <5>8 <6> <_-> <4> <_!> %55
+  r2 <_->
+  r8 <_!>4 <5>8 <6> <_-> <4> <_!>
+  r1
+  r4 <6-> <5>
+  <4->8 <3>4. <6 3>4 %60
+  <7 _!> <[8] _!>8 <7 \t> \bo <6- [4]> \bc <5 [_!]>
+  <_->2 <6 3>4
+  <7 [5!] _+> \bo <[8 _+]>8 <7 \t> <6 4>8 \bc <[5 _+]>
+  <5>4 <6-> <6 _->
+  <5 4-> <6 3> <6!> %65
+  <5 4> <8 _!> <7- 5 _!>
+  <9 4> <8 _-> <6- _!>8 <5 \t>
+  <7>4 <6>2
+  <_!>2.
+  r4. <5 2>8 <[6]> <6\\> %70
+  <8 4> <\t _!>4 <5 2>8 <[6]> <6\\>
+  <8 4> <\t _!> <_-> <6>4 <6!>8
+  r \bo <6 [_-]>4 \bc q8 <6 4> <5 _!>
+  r4. <_->
+  <6>4 <6\\>8 <8 4> <\t _+>4 %75
+  <6> <6\\>8 <8 4> <\t _+>4
+  r2.*2
+  r4. <7>8 <_!> <6- [3]>
+  <\t 2> <6> q <7> <_!> <6- [3]> %80
+  <\t 2>4 <6>8 \bo <7 [_-]> <6> \bc <6 [_-]>
+  r4. <6 5>
+  r <5 4>8 <\t 3>4
+  \bo <[6] 4>8 \bc <[5] _->4 <5 4->8 <\t 3> <_->
+  <6- 4> <5 3> <6!> <4> <3> <6!> %85
+  <4> <_-> <6!> <4> <_-> <6\\>
+  <4> <_-> <6\\> <5 4> <\t _+>4
+  <5>8 <6 4> <8 6> <6> <6 _+> <5>
+  <6!> <6 4> <5 _+> r4.
+  r2.*2 %91
+  r2.
+  <7>8 <_!> <4!> <5 2> <6> <_->
+  <5 2> <6>4 \bo <[5!] 4>8 <\t _+> \bc <[5]>
+  <9 5> <8 6-> <5> <9 [5]> <8 6> <5-> %95
+  <9 5> <8 6> <5> <9> <8>4
+  <7 _->8 \bassFigureExtendersOn <6 _-> <5 _-> <9- _!> <8 _!> <7 _!> \bassFigureExtendersOff
+  <9 5> <8 6-> <7- 5> <5 4> <8 _+> <7 \t>
+  <9> <8> <5> <6! 5> <_+>4
+  r <6>8 <7> <_+> <6- 3> %100
+  <\t 2> <6> q <7> <_+> <6- 3>
+  <\t 2> <6>4 <4!>8 <6> <6!>
+  <_->4. <5 2>8 <6> <6\\>
+  <8 4> <\t _!> <_-> <5 2> <6> <6\\>
+  <4> <_!> <_-> <5 2> <6> <6!> %105
+  <5 4> <\t _!> <_-> <5 2> <6> <6!>
+  <4> <_!> <[6] _-> <7> <6> <6->
+  \bo <7 [_-]> \bc <6- [\t]> <6> <7> <6!>4
+  <_!>2.
+  r %110
+  r
+  <9 _->8 <8> <[6 5-]> <9 5 _-> \bassFigureExtendersOn <8 6- _-> <[7-] 5 _-> \bassFigureExtendersOff
+  <9- _!> <8 \t> <5> <6 5 [_-]> <_!>4
+  r2 <_->8 <\t>
+  <6 5>4. <6 5 _->8 <_!>4 %115
+  r2. %116 finis
+}
